@@ -4,13 +4,11 @@
 ***
 偉志FTP
 
-ftp 140.112.107.195
+ftp 195
 
 antslab
 
-project319
-
-cd ANTS
+cd 
 
 get XXX
 
