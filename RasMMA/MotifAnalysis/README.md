@@ -16,3 +16,10 @@ AllExample.ipynb is an aggregation of all above examples.
 2. /Alignment
 
 StageMatrix.ipynb is the entry point of the alignment process. Change the testDir in the prrgram. Note that the Featurehooklog.ipynb used in the program is a little bi different from Featurehooklog3.ipynb (and it will be merged later).
+
+3. modify to multi-preocess RasMMA
+* RasMMAExample.ipynb to start, change some related files
+* only compatible for python3.6
+
+*3.run in ubuntu16.04+anaconda3+python3.6*
+
