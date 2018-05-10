@@ -1,0 +1,1228 @@
+3204 malware.exe
+#297200000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=76390000
+#298720000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=77f10000
+#297640000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=629c0000
+#299340000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#299350000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#303410000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=7c800000
+#303430000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=7c800000
+#303440000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=7c800000
+#303550000
+LoadLibrary
+lpFileName=KERNEL32.DLL
+Return=7c800000
+#303720000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=77dd0000
+#303750000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=77dd0000
+#303770000
+LoadLibrary
+lpFileName=oleaut32.dll
+Return=77120000
+#303810000
+LoadLibrary
+lpFileName=oleaut32.dll
+Return=77120000
+#303830000
+LoadLibrary
+lpFileName=user32.dll
+Return=7e410000
+#303850000
+LoadLibrary
+lpFileName=user32.dll
+Return=7e410000
+#304260000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\Software\HP710B
+Return=0
+#304300000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304300000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Star Wars Episode 2 - Attack Of The Clones Full Downloader.exe
+Return=1
+#304370000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304360000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Jenna Jameson - Built For Speed Downloader.exe
+Return=1
+#304420000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304420000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\[DiVX] Lord of The Rings Full Downloader.exe
+Return=1
+#304480000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304480000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\[DiVX] Harry Potter And The Sorcerors Stone Full Downloader.exe
+Return=1
+#304530000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304530000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\CKY3 - Bam Margera World Industries Alien Workshop Full Downloader.exe
+Return=1
+#304590000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304590000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Cat Attacks Child Full Downloader.exe
+Return=1
+#304640000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304640000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\PS1 Boot Disc Full Dwonloader.exe
+Return=1
+#304690000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304690000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Sony Play station boot disc - Downloader.exe
+Return=1
+#304750000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304750000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\How To Hack Websites.exe
+Return=1
+#304800000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304800000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\AIM Account Stealer Downloader.exe
+Return=1
+#304860000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#304860000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\MSN Password Hacker and Stealer.exe
+Return=1
+#304920000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#304920000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Hacking Tool Collection.exe
+Return=1
+#305000000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305000000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Windows XP Full Downloader.exe
+Return=1
+#305070000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305070000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Macromedia Flash 5.0 Full Downloader.exe
+Return=1
+#305130000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305130000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\DSL Modem Uncapper.exe
+Return=1
+#305180000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305180000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Internet and Computer Speed Booster.exe
+Return=1
+#305230000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305230000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\ZoneAlarm Firewall Full Downloader.exe
+Return=1
+#305290000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305290000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Borland Delphi 6 Key Generator.exe
+Return=1
+#305340000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305340000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\ScaryMovie 2 Full Downloader.exe
+Return=1
+#305440000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305440000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\StarWars2 - CloneAttack - FullDownloader.exe
+Return=1
+#305490000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305490000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Spiderman FullDownloader.exe
+Return=1
+#305540000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305540000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Shakira FullDownloader.exe
+Return=1
+#305600000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305600000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Gladiator FullDownloader.exe
+Return=1
+#305650000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305650000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\AikaQuest3Hentai FullDownloader.exe
+Return=1
+#305720000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305710000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\MoviezChannelsInstaler.exe
+Return=1
+#305770000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305770000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Zidane-ScreenInstaler.exe
+Return=1
+#305820000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305820000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\LordOfTheRings-FullDownloader.exe
+Return=1
+#305880000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305870000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\SIMS FullDownloader.exe
+Return=1
+#305930000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#305930000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Britney spears nude.exe
+Return=1
+#305980000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#305980000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Quake 4 BETA.exe
+Return=1
+#306030000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306030000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Windows XP key generator.exe
+Return=1
+#306100000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306100000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Windows XP serial generator.exe
+Return=1
+#306150000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306150000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Xbox.info.exe
+Return=1
+#306200000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306200000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\DivX.exe
+Return=1
+#306250000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306250000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\GTA3 crack.exe
+Return=1
+#306300000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306300000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Battle.net key generator (WORKS!!).exe
+Return=1
+#306360000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306360000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Warcraft 3 battle.net serial generator.exe
+Return=1
+#306470000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306470000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Half-life WON key generator.exe
+Return=1
+#306580000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306580000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Star wars episode 2 downloader.exe
+Return=1
+#306640000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306640000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Winzip 8.0 + serial.exe
+Return=1
+#306730000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306730000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Winrar + crack.exe
+Return=1
+#306790000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306790000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Key generator for all windows XP versions.exe
+Return=1
+#306840000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306840000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Warcraft 3 ONLINE key generator.exe
+Return=1
+#306890000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306890000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Half-life ONLINE key generator.exe
+Return=1
+#306940000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#306940000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Grand theft auto 3 CD1 crack.exe
+Return=1
+#306990000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#306990000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Macromedia key generator (all products).exe
+Return=1
+#307050000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307040000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\KaZaA media desktop v2.0 UNOFFICIAL.exe
+Return=1
+#307120000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#307120000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Microsoft key generator, works for ALL microsoft products!!.exe
+Return=1
+#307180000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307180000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Microsoft Windows XP crack pack.exe
+Return=1
+#307230000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=54
+#307230000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\Temp\Hack into any computer!!.exe
+Return=1
+#307320000
+CreateFile
+hName=C:\WINDOWS\Temp\Star Wars Episode 2 - Attack Of The Clones Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307320000
+CreateFile
+hName=C:\WINDOWS\Temp\Star Wars Episode 2 - Attack Of The Clones Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307360000
+CreateFile
+hName=C:\WINDOWS\Temp\Jenna Jameson - Built For Speed Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307360000
+CreateFile
+hName=C:\WINDOWS\Temp\Jenna Jameson - Built For Speed Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307390000
+CreateFile
+hName=C:\WINDOWS\Temp\[DiVX] Lord of The Rings Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307390000
+CreateFile
+hName=C:\WINDOWS\Temp\[DiVX] Lord of The Rings Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307430000
+CreateFile
+hName=C:\WINDOWS\Temp\[DiVX] Harry Potter And The Sorcerors Stone Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307430000
+CreateFile
+hName=C:\WINDOWS\Temp\[DiVX] Harry Potter And The Sorcerors Stone Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307480000
+CreateFile
+hName=C:\WINDOWS\Temp\CKY3 - Bam Margera World Industries Alien Workshop Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307480000
+CreateFile
+hName=C:\WINDOWS\Temp\CKY3 - Bam Margera World Industries Alien Workshop Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307520000
+CreateFile
+hName=C:\WINDOWS\Temp\Cat Attacks Child Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307520000
+CreateFile
+hName=C:\WINDOWS\Temp\Cat Attacks Child Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307550000
+CreateFile
+hName=C:\WINDOWS\Temp\PS1 Boot Disc Full Dwonloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307550000
+CreateFile
+hName=C:\WINDOWS\Temp\PS1 Boot Disc Full Dwonloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307590000
+CreateFile
+hName=C:\WINDOWS\Temp\Sony Play station boot disc - Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307590000
+CreateFile
+hName=C:\WINDOWS\Temp\Sony Play station boot disc - Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307620000
+CreateFile
+hName=C:\WINDOWS\Temp\How To Hack Websites.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307620000
+CreateFile
+hName=C:\WINDOWS\Temp\How To Hack Websites.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307660000
+CreateFile
+hName=C:\WINDOWS\Temp\AIM Account Stealer Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307660000
+CreateFile
+hName=C:\WINDOWS\Temp\AIM Account Stealer Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307700000
+CreateFile
+hName=C:\WINDOWS\Temp\MSN Password Hacker and Stealer.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307700000
+CreateFile
+hName=C:\WINDOWS\Temp\MSN Password Hacker and Stealer.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307730000
+CreateFile
+hName=C:\WINDOWS\Temp\Hacking Tool Collection.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307730000
+CreateFile
+hName=C:\WINDOWS\Temp\Hacking Tool Collection.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307760000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307760000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307800000
+CreateFile
+hName=C:\WINDOWS\Temp\Macromedia Flash 5.0 Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307800000
+CreateFile
+hName=C:\WINDOWS\Temp\Macromedia Flash 5.0 Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307830000
+CreateFile
+hName=C:\WINDOWS\Temp\DSL Modem Uncapper.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307830000
+CreateFile
+hName=C:\WINDOWS\Temp\DSL Modem Uncapper.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307860000
+CreateFile
+hName=C:\WINDOWS\Temp\Internet and Computer Speed Booster.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307860000
+CreateFile
+hName=C:\WINDOWS\Temp\Internet and Computer Speed Booster.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307900000
+CreateFile
+hName=C:\WINDOWS\Temp\ZoneAlarm Firewall Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307890000
+CreateFile
+hName=C:\WINDOWS\Temp\ZoneAlarm Firewall Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307930000
+CreateFile
+hName=C:\WINDOWS\Temp\Borland Delphi 6 Key Generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307930000
+CreateFile
+hName=C:\WINDOWS\Temp\Borland Delphi 6 Key Generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307960000
+CreateFile
+hName=C:\WINDOWS\Temp\ScaryMovie 2 Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307960000
+CreateFile
+hName=C:\WINDOWS\Temp\ScaryMovie 2 Full Downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308000000
+CreateFile
+hName=C:\WINDOWS\Temp\StarWars2 - CloneAttack - FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#307990000
+CreateFile
+hName=C:\WINDOWS\Temp\StarWars2 - CloneAttack - FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308030000
+CreateFile
+hName=C:\WINDOWS\Temp\Spiderman FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308030000
+CreateFile
+hName=C:\WINDOWS\Temp\Spiderman FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308070000
+CreateFile
+hName=C:\WINDOWS\Temp\Shakira FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308070000
+CreateFile
+hName=C:\WINDOWS\Temp\Shakira FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308100000
+CreateFile
+hName=C:\WINDOWS\Temp\Gladiator FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308100000
+CreateFile
+hName=C:\WINDOWS\Temp\Gladiator FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308140000
+CreateFile
+hName=C:\WINDOWS\Temp\AikaQuest3Hentai FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308140000
+CreateFile
+hName=C:\WINDOWS\Temp\AikaQuest3Hentai FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308180000
+CreateFile
+hName=C:\WINDOWS\Temp\MoviezChannelsInstaler.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308180000
+CreateFile
+hName=C:\WINDOWS\Temp\MoviezChannelsInstaler.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308220000
+CreateFile
+hName=C:\WINDOWS\Temp\Zidane-ScreenInstaler.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308220000
+CreateFile
+hName=C:\WINDOWS\Temp\Zidane-ScreenInstaler.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308250000
+CreateFile
+hName=C:\WINDOWS\Temp\LordOfTheRings-FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308250000
+CreateFile
+hName=C:\WINDOWS\Temp\LordOfTheRings-FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308280000
+CreateFile
+hName=C:\WINDOWS\Temp\SIMS FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308280000
+CreateFile
+hName=C:\WINDOWS\Temp\SIMS FullDownloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308310000
+CreateFile
+hName=C:\WINDOWS\Temp\Britney spears nude.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308310000
+CreateFile
+hName=C:\WINDOWS\Temp\Britney spears nude.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308340000
+CreateFile
+hName=C:\WINDOWS\Temp\Quake 4 BETA.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308340000
+CreateFile
+hName=C:\WINDOWS\Temp\Quake 4 BETA.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308370000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308370000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308400000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP serial generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308400000
+CreateFile
+hName=C:\WINDOWS\Temp\Windows XP serial generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308430000
+CreateFile
+hName=C:\WINDOWS\Temp\Xbox.info.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308430000
+CreateFile
+hName=C:\WINDOWS\Temp\Xbox.info.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308460000
+CreateFile
+hName=C:\WINDOWS\Temp\DivX.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308460000
+CreateFile
+hName=C:\WINDOWS\Temp\DivX.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308480000
+CreateFile
+hName=C:\WINDOWS\Temp\GTA3 crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308480000
+CreateFile
+hName=C:\WINDOWS\Temp\GTA3 crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308510000
+CreateFile
+hName=C:\WINDOWS\Temp\Battle.net key generator (WORKS!!).exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308510000
+CreateFile
+hName=C:\WINDOWS\Temp\Battle.net key generator (WORKS!!).exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308550000
+CreateFile
+hName=C:\WINDOWS\Temp\Warcraft 3 battle.net serial generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308550000
+CreateFile
+hName=C:\WINDOWS\Temp\Warcraft 3 battle.net serial generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308580000
+CreateFile
+hName=C:\WINDOWS\Temp\Half-life WON key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308580000
+CreateFile
+hName=C:\WINDOWS\Temp\Half-life WON key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308610000
+CreateFile
+hName=C:\WINDOWS\Temp\Star wars episode 2 downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308610000
+CreateFile
+hName=C:\WINDOWS\Temp\Star wars episode 2 downloader.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308640000
+CreateFile
+hName=C:\WINDOWS\Temp\Winzip 8.0 + serial.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308640000
+CreateFile
+hName=C:\WINDOWS\Temp\Winzip 8.0 + serial.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308690000
+CreateFile
+hName=C:\WINDOWS\Temp\Winrar + crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308690000
+CreateFile
+hName=C:\WINDOWS\Temp\Winrar + crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308720000
+CreateFile
+hName=C:\WINDOWS\Temp\Key generator for all windows XP versions.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308720000
+CreateFile
+hName=C:\WINDOWS\Temp\Key generator for all windows XP versions.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308750000
+CreateFile
+hName=C:\WINDOWS\Temp\Warcraft 3 ONLINE key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308750000
+CreateFile
+hName=C:\WINDOWS\Temp\Warcraft 3 ONLINE key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308790000
+CreateFile
+hName=C:\WINDOWS\Temp\Half-life ONLINE key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308790000
+CreateFile
+hName=C:\WINDOWS\Temp\Half-life ONLINE key generator.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308820000
+CreateFile
+hName=C:\WINDOWS\Temp\Grand theft auto 3 CD1 crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308820000
+CreateFile
+hName=C:\WINDOWS\Temp\Grand theft auto 3 CD1 crack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308850000
+CreateFile
+hName=C:\WINDOWS\Temp\Macromedia key generator (all products).exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308850000
+CreateFile
+hName=C:\WINDOWS\Temp\Macromedia key generator (all products).exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308900000
+CreateFile
+hName=C:\WINDOWS\Temp\KaZaA media desktop v2.0 UNOFFICIAL.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308900000
+CreateFile
+hName=C:\WINDOWS\Temp\KaZaA media desktop v2.0 UNOFFICIAL.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308930000
+CreateFile
+hName=C:\WINDOWS\Temp\Microsoft key generator, works for ALL microsoft products!!.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308930000
+CreateFile
+hName=C:\WINDOWS\Temp\Microsoft key generator, works for ALL microsoft products!!.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308970000
+CreateFile
+hName=C:\WINDOWS\Temp\Microsoft Windows XP crack pack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#308970000
+CreateFile
+hName=C:\WINDOWS\Temp\Microsoft Windows XP crack pack.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#309000000
+CreateFile
+hName=C:\WINDOWS\Temp\Hack into any computer!!.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#309000000
+CreateFile
+hName=C:\WINDOWS\Temp\Hack into any computer!!.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=50
+#309020000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=50
+#309020000
+CopyFile
+lpExistingFileName=C:\Documents and Settings\All Users\Desktop\malware.exe
+lpNewFileName=C:\WINDOWS\driv64.exe
+Return=1
+#309090000
+ExitProcess

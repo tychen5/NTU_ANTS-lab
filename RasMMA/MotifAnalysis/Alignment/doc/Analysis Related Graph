@@ -1,0 +1,10 @@
+．For total motif 
+  1. Stage seq.
+  2. Feature profile plot (DNA?)
+  3. Probability CDF graph
+  4. Distinct motif
+
+．For common motif 
+  1. Categroy bubbles for each common motif
+  2. Timeline- Categroy graph
+  3. Def-Use chain

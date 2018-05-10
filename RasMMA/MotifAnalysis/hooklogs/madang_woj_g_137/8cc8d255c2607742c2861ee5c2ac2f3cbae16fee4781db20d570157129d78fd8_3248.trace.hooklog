@@ -1,0 +1,366 @@
+3248 malware.exe
+#212350000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=76390000
+#213190000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=77f10000
+#212890000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=629c0000
+#212170000
+LoadLibrary
+lpFileName=USER32.DLL
+Return=7e410000
+#213340000
+LoadLibrary
+lpFileName=ADVAPI32.DLL
+Return=77dd0000
+#213420000
+LoadLibrary
+lpFileName=MPR.DLL
+Return=71b20000
+#213610000
+LoadLibrary
+lpFileName=WSOCK32.DLL
+Return=71ad0000
+#215400000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+#216550000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=58
+#216800000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#216810000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#216820000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+Return=0
+type=REG_DWORD
+data=2
+#215680000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=773d0000
+#217620000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#217630000
+LoadLibrary
+lpFileName=imm32.dll
+Return=76390000
+#217040000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=5d090000
+#215000000
+LoadLibrary
+lpFileName=SHELL32.DLL
+Return=7c9c0000
+#218400000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#218400000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#219280000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=773d0000
+#219630000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\DisableImprovedZoneCheck
+Return=2
+#219740000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_OBJECT_CACHING\malware.exe
+Return=2
+#219740000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_OBJECT_CACHING\*
+Return=2
+#219740000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ZONE_ELEVATION\malware.exe
+Return=2
+#219750000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_ZONE_ELEVATION\*
+Return=2
+#219750000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_HANDLING\malware.exe
+Return=2
+#219750000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_HANDLING\*
+Return=2
+#219760000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_SNIFFING\malware.exe
+Return=2
+#219770000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_MIME_SNIFFING\*
+Return=2
+#219790000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WINDOW_RESTRICTIONS\malware.exe
+Return=2
+#219790000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WINDOW_RESTRICTIONS\*
+Return=2
+#219800000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WEBOC_POPUPMANAGEMENT\malware.exe
+Return=2
+#219800000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_WEBOC_POPUPMANAGEMENT\*
+Return=2
+#219800000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BEHAVIORS\malware.exe
+Return=2
+#219830000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BEHAVIORS\*
+Return=0
+#219830000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_DISABLE_MK_PROTOCOL\malware.exe
+Return=2
+#219830000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_DISABLE_MK_PROTOCOL\*
+Return=0
+#219840000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN\malware.exe
+Return=2
+#219840000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN\*
+Return=2
+#219840000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN\malware.exe
+Return=2
+#219850000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_LOCALMACHINE_LOCKDOWN\*
+Return=2
+#219870000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_PROTOCOL_LOCKDOWN\malware.exe
+Return=2
+#219870000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_PROTOCOL_LOCKDOWN\*
+Return=2
+#219880000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_SAFE_BINDTOOBJECT\malware.exe
+Return=2
+#219890000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_SAFE_BINDTOOBJECT\*
+Return=2
+#217960000
+LoadLibrary
+lpFileName=URLMON.DLL
+Return=7e1e0000
+#220600000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#220670000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=77dd0000
+#219910000
+CreateProcessInternal
+lpCommandLine="C:\Documents and Settings\All Users\Desktop\malware.exe" 
+Return=1
+#219910000
+CreateProcessInternal
+lpCommandLine="C:\Documents and Settings\All Users\Desktop\malware.exe" 
+Return=1
+#219910000
+WinExec
+lpCmdLine="C:\Documents and Settings\All Users\Desktop\malware.exe" 
+Return=21
+#233430000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\AutoShareServer
+type=REG_DWORD
+data=0
+Return=0
+#233680000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters\AutoShareWks
+type=REG_DWORD
+data=0
+Return=0
+#233730000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#233730000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#233720000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=78
+#233720000
+CreateFile
+hName=C:\WINDOWS\system32\Serverx.exe
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=78
+#235820000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=70
+#235820000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=70
+#235850000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#235850000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#235870000
+LoadLibrary
+lpFileName=ADVAPI32.DLL
+Return=77dd0000
+#236080000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\MaxRpcSize
+Return=2
+#236140000
+LoadLibrary
+lpFileName=rpcrt4.dll
+Return=77e70000
+#236280000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=b0
+#236400000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ac
+#236490000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=b0
+#236610000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ac
+#236810000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#236810000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SERVERX.EXE
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#236830000
+RegSetValue
+hKey=HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Serverx
+type=REG_SZ
+data=C:\WINDOWS\system32\Serverx.exe
+Return=0
+#236850000
+CreateThread
+dwThreadId=1244528
+Return=ac
+#236860000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Serverx
+Return=0
+#236870000
+OpenProcess
+desiredAccess=DELETE READ_CONTROL SYNCHRONIZE WRITE_DAC WRITE_OWNER PROCESS_CREATE_PROCESS PROCESS_CREATE_THREAD PROCESS_DUP_HANDLE PROCESS_QUERY_INFORMATION PROCESS_SET_INFORMATION PROCESS_SET_QUOTA PROCESS_SUSPEND_RESUME PROCESS_TERMINATE PROCESS_VM_OPERATION PROCESS_VM_READ PROCESS_VM_WRITE 
+dwProcessId=1456
+Return=b0
+#252940000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SETUPX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#252940000
+CreateFile
+hName=C:\WINDOWS\SYSTEM32\SETUPX.EXE
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#252870000
+CreateFile
+hName=C:\WINDOWS\system32\setupx.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=ffffffff
+#252810000
+CreateProcessInternal
+lpCommandLine=C:\WINDOWS\system32\setupx.exe
+Return=0
+#252810000
+CreateProcessInternal
+lpCommandLine=hò
+Return=0
+#252810000
+WinExec
+lpCmdLine=hò
+Return=2

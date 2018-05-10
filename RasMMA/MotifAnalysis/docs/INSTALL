@@ -1,0 +1,47 @@
+To run the codes in this repository, installation of correct version of Python and other libraries is important. Please follow the instructions below. Note that most of the codes are tested and can be run in Python 3.6 and 3.4, so that you can use any version of python distribution, such as Anaconda or Miniconda, without any problem. However, plotting graphs needs some specific version of libraries.
+
+01. Install Python distribution. I recommend Anaconda (https://www.continuum.io/downloads). Please download Python 3.6 version (64-Bit) and Anaconda supports Windows, Linux and macOS. Simply download the executable file and run it. If you have limited disk space, you can use minconda (https://conda.io/miniconda.html) which only install basic python execution environment.
+
+02. Install Graphviz executables. We need "dot" program to produce the graph. You can find the installation file in http://www.graphviz.org/Download.php. For Windows Vista user, there is a warning at the download page, and make sure you read the text. I install graphviz-2.38.msi in "C:\Program Files (x86)\Graphviz2.38\". Note that my Graphviz2.38 folder looks like:
+\Graphviz2.38
+  \bin
+  \etc
+  \include
+    \graphviz
+  \lib
+    \debug
+    \release
+      \dll
+      \lib
+    ...
+  ...
+
+03. Register Graphviz in the system path. In Windows, open [Control Panel] -> [System] -> [Advanced System Settings] -> [Environment Variables]. Choose [Path] in [System Variables] and click [Edit]. Append a path to the end. For Graphviz in step 02, I append "C:\Program Files (x86)\Graphviz2.38\bin\" in [Path]. It tells the operating system where to find the "dot" program.
+
+04. Run "Anaconda Prompt" from your installed Anaconda programs. The icon should be in your "Start" (Windows) or "App" macOS folder. After running the prompt, a command line interface pops and the prompt looks like (C:\Users\your_name\Anaconda3). All the following commands must be run in the "Anaconda Prompt", NOT Windows CMD.
+
+05. Create a new Python environment for Python 3.4 and pygraphviz. Type the following commands in the "Anaconda Prompt".
+(C:\Users\your_name\Anaconda3) >conda create -n py34 python=3.4
+Press y when asked. If success, the following messages will be shown.
+
+To activate this environment, use:
+activate py34
+To deactivate this environment, use:
+deactivate py34
+
+06. List and enter new created Python environment. Note that the version of python should be 3.4.x in (py34).
+(C:\Users\your_name\Anaconda3) >python --version
+(C:\Users\your_name\Anaconda3) >activate py34
+(py34) >python --version
+
+07. Download and install compliled PyGraphviz from http://www.lfd.uci.edu/~gohlke/pythonlibs/#pygraphviz. Use the following command to install the download file (pygraphviz‑1.3.1‑cp34‑none‑win_amd64.whl). There should be no error.
+(py34) >pip install pygraphviz-1.3.1-cp34-none-win_amd64.whl
+
+08. Install Python packages. If you need any other python packages, install them right now.
+(py34) >pip install jupyter matplotlib
+
+09. Run the jupyter notebook.
+(py34) >jupyter notebook 
+
+
+

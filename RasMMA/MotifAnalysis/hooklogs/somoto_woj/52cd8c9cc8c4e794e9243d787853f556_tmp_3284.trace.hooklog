@@ -1,0 +1,43 @@
+3284 ns6.tmp
+#401730000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#402510000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#402190000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#403620000
+LoadLibrary
+lpFileName=VERSION.dll
+Return=SUCCESS
+#403760000
+CreateFile
+hName=C:\WINDOWS\System32\Wbem\wmic.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#403840000
+CreateFile
+hName=C:\WINDOWS\System32\Wbem\wmic.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#405270000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#405300000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#402620000
+CreateProcessInternal
+lpCommandLine=WMIC csproduct Get Name /FORMAT:textvaluelist.xsl
+Return=SUCCESS
+dwProcessId=3292
+dwThreadId=3296

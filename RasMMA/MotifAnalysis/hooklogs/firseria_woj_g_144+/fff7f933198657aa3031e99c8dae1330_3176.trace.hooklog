@@ -1,0 +1,138 @@
+3176 malware.exe
+#197730000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#198610000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#198300000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#422680000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Version
+Return=0
+type=REG_SZ
+data=6.0.2900.5512
+#423000000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#423120000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#442080000
+LoadLibrary
+lpFileName=psapi
+Return=SUCCESS
+#442450000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=4
+Return=SUCCESS
+procName=
+#442580000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=300
+Return=SUCCESS
+procName=smss.exe
+#442760000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=396
+Return=FAILURE
+#442830000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=420
+Return=SUCCESS
+procName=winlogon.exe
+#443020000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=508
+Return=SUCCESS
+procName=services.exe
+#443210000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=520
+Return=SUCCESS
+procName=lsass.exe
+#443390000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=692
+Return=SUCCESS
+procName=svchost.exe
+#443590000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=772
+Return=FAILURE
+#443700000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=840
+Return=SUCCESS
+procName=svchost.exe
+#443900000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=992
+Return=FAILURE
+#444010000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=1024
+Return=FAILURE
+#444090000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=1184
+Return=SUCCESS
+procName=spoolsv.exe
+#444270000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=1580
+Return=SUCCESS
+procName=explorer.exe
+#444460000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=248
+Return=FAILURE
+#444570000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=532
+Return=SUCCESS
+procName=wscntfy.exe
+#444750000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=636
+Return=SUCCESS
+procName=rundll32.exe
+#444940000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=712
+Return=SUCCESS
+procName=jusched.exe
+#445130000
+OpenProcess
+desiredAccess=PROCESS_QUERY_INFORMATION PROCESS_VM_READ 
+dwProcessId=3176
+Return=SUCCESS
+procName=malware.exe

@@ -1,0 +1,9 @@
+SOP01-PE
+
+After obtaining files, we need to filter out Windows Win32 PE (portable executable) files. Please do the following instructions.
+
+0. Save your files in a directory, say $test_dir$
+1. Read the installation document in MotifAnalysis/docs/INSTALL to prepare your execution environment.
+2. Sync MotifAnalysis/isWin32.ipynb and MotifAnalysis/isWin32ExeExample.ipynb from this github.
+3. Modify in_directory and in_tag variables in the isWin32ExeExample.ipynb. in_directory should be set to $test_dir$, and in_tag should be an unique tag for this very experiment.
+4. Run isWin32ExeExample.ipynb. The program shows which file in the in_directory is Windows Win32 PE file. Results are saved in a pickle file for further reference.

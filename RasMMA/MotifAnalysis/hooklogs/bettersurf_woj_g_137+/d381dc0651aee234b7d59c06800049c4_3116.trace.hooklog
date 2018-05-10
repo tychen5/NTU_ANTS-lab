@@ -1,0 +1,1356 @@
+3116 malware.exe
+#202380000
+LoadLibrary
+lpFileName=C:\WINDOWS\system32\IMM32.DLL
+Return=SUCCESS
+#203220000
+LoadLibrary
+lpFileName=gdi32.dll
+Return=SUCCESS
+#202880000
+LoadLibrary
+lpFileName=LPK.DLL
+Return=SUCCESS
+#203760000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#204070000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#204140000
+LoadLibrary
+lpFileName=comctl32.dll
+Return=SUCCESS
+#204400000
+CreateFile
+hName=C:\WINDOWS\WindowsShell.Manifest
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#204630000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\SmoothScroll
+Return=2
+#204640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\EnableBalloonTips
+Return=2
+#204650000
+RegEnumValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\LanguagePack\SURR
+type=REG_DWORD
+data=2
+Return=0
+#204810000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\CriticalSectionTimeout
+Return=0
+#204810000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Ole\RWLockResourceTimeOut
+Return=2
+#205560000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ThemeManager\Compositing
+Return=2
+#205590000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Control Panel\Desktop\LameButtonText
+Return=2
+#205630000
+LoadLibrary
+lpFileName=uxtheme.dll
+Return=SUCCESS
+#207320000
+LoadLibrary
+lpFileName=SHFOLDER
+Return=SUCCESS
+#207580000
+LoadLibrary
+lpFileName=ole32.dll
+Return=SUCCESS
+#207650000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoNetHood
+Return=2
+#207670000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoPropertiesMyComputer
+Return=2
+#207700000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoInternetIcon
+Return=2
+#207820000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoCommonGroups
+Return=2
+#207870000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoControlPanel
+Return=2
+#207880000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoSetFolders
+Return=2
+#207930000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\CLSID\{20D04FE0-3AEA-1069-A2D8-08002B30309D}\InProcServer32
+Return=0
+type=REG_EXPAND_SZ
+data=%
+#208330000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\System\Setup\SystemSetupInProgress
+Return=0
+type=REG_DWORD
+data=0
+#208340000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\System\WPA\PnP\seed
+Return=0
+type=REG_DWORD
+data=-2116632297
+#208350000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\OsLoaderPath
+Return=0
+type=REG_SZ
+data=
+#208350000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\OsLoaderPath
+Return=0
+type=REG_SZ
+data=\
+#208350000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemPartition
+Return=0
+type=REG_SZ
+data=
+#208350000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SYSTEM\Setup\SystemPartition
+Return=0
+type=REG_SZ
+data=\Device\HarddiskVolume1
+#208390000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\SourcePath
+Return=0
+type=REG_SZ
+data=
+#208390000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\SourcePath
+Return=0
+type=REG_SZ
+data=D:\
+#208390000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\ServicePackSourcePath
+Return=0
+type=REG_SZ
+data=
+#208390000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\ServicePackSourcePath
+Return=0
+type=REG_SZ
+data=D:\
+#208400000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\ServicePackCachePath
+Return=2
+#208400000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\DriverCachePath
+Return=0
+type=REG_EXPAND_SZ
+data=
+#208420000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\DriverCachePath
+Return=0
+type=REG_EXPAND_SZ
+data=%
+#208440000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\DevicePath
+Return=0
+type=REG_EXPAND_SZ
+data=%
+#208480000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\LogLevel
+Return=2
+#208480000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Setup\LogPath
+Return=2
+#208010000
+LoadLibrary
+lpFileName=SETUPAPI.dll
+Return=SUCCESS
+#208590000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Rpc\MaxRpcSize
+Return=2
+#208650000
+LoadLibrary
+lpFileName=rpcrt4.dll
+Return=SUCCESS
+#208750000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#208870000
+CreateFile
+hName=\\.\PIPE\lsarpc
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209100000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209120000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{4774220e-1640-11e4-bb1b-806d6172696f}\\Data
+Return=0
+type=REG_BINARY
+data=000000005C005C003F005C0049004400450023004300640052006F006D00510045004D0055005F00510045004D0055005F00430044002D0052004F004D005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F005F0030002E0039002E005F005F005F005F002300340064003500310033003000330030003300300033003000320030003300330032003000320030003200300032003000320030003200300032003000320030003200300032003000320030003200300023007B00350033006600350036003300300064002D0062003600620066002D0031003100640030002D0039003400660032002D003000300061003000630039003100650066006200380062007D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005C005C003F005C0056006F006C0075006D0065007B00340037003700340032003200300065002D0031003600340030002D0031003100650034002D0062006200310062002D003800300036006400360031003700320036003900360066007D005C00000049006E00760061006C00690064000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000049006E00760061006C006900640000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000001000000000000000BDADDBBABDADDBBABDADDBBABDADDBBABDADDBBA0000000000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+#209130000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{4774220e-1640-11e4-bb1b-806d6172696f}\\Generation
+Return=0
+type=REG_DWORD
+data=1
+#209170000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209190000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{6fc0686a-6791-11e1-b81a-806d6172696f}\\Data
+Return=0
+type=REG_BINARY
+data=000000005C005C003F005C00530054004F005200410047004500230056006F006C0075006D006500230031002600330030006100390036003500390038002600300026005300690067006E0061007400750072006500420046003500350042004600350035004F006600660073006500740037004500300030004C0065006E0067007400680032003700460034004400420032003000300023007B00350033006600350036003300300064002D0062003600620066002D0031003100640030002D0039003400660032002D003000300061003000630039003100650066006200380062007D000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005C005C003F005C0056006F006C0075006D0065007B00360066006300300036003800360061002D0036003700390031002D0031003100650031002D0062003800310061002D003800300036006400360031003700320036003900360066007D005C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004E0054004600530000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000800000001100000FF000700FF000000160000004DE872DC000000000000003000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+#209200000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{6fc0686a-6791-11e1-b81a-806d6172696f}\\Generation
+Return=0
+type=REG_DWORD
+data=1
+#209220000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209230000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209250000
+RegCreateKey
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{6fc0686a-6791-11e1-b81a-806d6172696f}\
+Return=0
+#209250000
+RegSetValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{6fc0686a-6791-11e1-b81a-806d6172696f}\\BaseClass
+type=REG_SZ
+data=Drive
+Return=0
+#209260000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209270000
+CreateFile
+hName=\\.\MountPointManager
+desiredAccess=
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#209280000
+RegCreateKey
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{4774220e-1640-11e4-bb1b-806d6172696f}\
+Return=0
+#209280000
+RegSetValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\{4774220e-1640-11e4-bb1b-806d6172696f}\\BaseClass
+type=REG_SZ
+data=Drive
+Return=0
+#209300000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\MountPoints2\CPC\Volume\{6fc0686a-6791-11e1-b81a-806d6172696f}\\Generation
+Return=0
+type=REG_DWORD
+data=1
+#209340000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Drive\shellex\FolderExtensions\{fbeb8a05-beee-4442-804e-409d6c4515e9}\DriveMask
+Return=0
+type=REG_DWORD
+data=32
+#209400000
+LoadLibrary
+lpFileName=SHELL32.dll
+Return=SUCCESS
+#209420000
+LoadLibrary
+lpFileName=ole32.dll
+Return=SUCCESS
+#209490000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DontShowSuperHidden
+Return=2
+#209500000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellState
+Return=0
+type=REG_BINARY
+data=000000000000000000000000000000000000000000000000000000000000000000000000
+#209500000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ShellState
+Return=0
+type=REG_BINARY
+data=2400000030280000000000000000000000000000010000000D0000000000000002000000
+#209520000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\ForceActiveDesktopOn
+Return=2
+#209540000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoActiveDesktop
+Return=2
+#209560000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoWebView
+Return=2
+#209580000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\ClassicShell
+Return=2
+#209590000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\SeparateProcess
+Return=2
+#209610000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoNetCrawling
+Return=2
+#209630000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoSimpleStartMenu
+Return=2
+#209640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Hidden
+Return=0
+type=REG_DWORD
+data=2
+#209640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowCompColor
+Return=0
+type=REG_DWORD
+data=1
+#209640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideFileExt
+Return=0
+type=REG_DWORD
+data=1
+#209640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\DontPrettyPath
+Return=0
+type=REG_DWORD
+data=0
+#209640000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowInfoTip
+Return=0
+type=REG_DWORD
+data=1
+#209650000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\HideIcons
+Return=0
+type=REG_DWORD
+data=0
+#209650000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\MapNetDrvBtn
+Return=0
+type=REG_DWORD
+data=0
+#209650000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\WebView
+Return=0
+type=REG_DWORD
+data=1
+#209650000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Filter
+Return=0
+type=REG_DWORD
+data=0
+#209660000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowSuperHidden
+Return=2
+#209660000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\SeparateProcess
+Return=0
+type=REG_DWORD
+data=0
+#209660000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\NoNetCrawling
+Return=2
+#209690000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Directory\DocObject
+Return=2
+#209700000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Directory\BrowseInPlace
+Return=2
+#209750000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Directory\IsShortcut
+Return=2
+#209760000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Directory\AlwaysShowExt
+Return=0
+type=REG_SZ
+data=
+#209780000
+RegQueryValue
+hKey=HKEY_CLASSES_ROOT\Directory\NeverShowExt
+Return=2
+#209980000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsd1.tmp
+desiredAccess=GENERIC_READ 
+creationDisposition=CREATE_NEW
+Return=SUCCESS
+#210000000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsd1.tmp
+Return=SUCCESS
+#210000000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsd1.tmp
+Return=SUCCESS
+#210030000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#210020000
+CreateFile
+hName=C:\Documents and Settings\All Users\Desktop\malware.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#232580000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\ProgramFilesDir
+Return=0
+type=REG_SZ
+data=C:\Program Files
+#232680000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp
+desiredAccess=GENERIC_READ 
+creationDisposition=CREATE_NEW
+Return=SUCCESS
+#232740000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp
+Return=SUCCESS
+#232740000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp
+Return=SUCCESS
+#232940000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=SUCCESS
+#232940000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=SUCCESS
+#319030000
+LoadLibrary
+lpFileName=kernel32.dll
+Return=SUCCESS
+#319240000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\aminsis.txt
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#319240000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\aminsis.txt
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#319270000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Local AppData
+Return=0
+type=REG_SZ
+data=C:\Documents and Settings\ants\Local Settings\Application Data
+#319380000
+CreateFile
+hName=C:\Documents and Settings\ants\Local Settings\Application Data\Google\Chrome\User Data\Local State
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#326750000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#326740000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#326890000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=4
+Return=SUCCESS
+procName=
+#326890000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=288
+Return=SUCCESS
+procName=smss.exe
+#326890000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=396
+Return=FAILURE
+#326890000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=428
+Return=SUCCESS
+procName=winlogon.exe
+#326900000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=488
+Return=SUCCESS
+procName=services.exe
+#326900000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=500
+Return=SUCCESS
+procName=lsass.exe
+#326900000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=692
+Return=SUCCESS
+procName=svchost.exe
+#326910000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=776
+Return=FAILURE
+#326910000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=844
+Return=SUCCESS
+procName=svchost.exe
+#326910000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1064
+Return=FAILURE
+#326910000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1116
+Return=FAILURE
+#326910000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1320
+Return=SUCCESS
+procName=spoolsv.exe
+#326920000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1376
+Return=SUCCESS
+procName=explorer.exe
+#326920000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1896
+Return=SUCCESS
+procName=rundll32.exe
+#326930000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1920
+Return=SUCCESS
+procName=jusched.exe
+#326930000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=2892
+Return=FAILURE
+#326930000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3008
+Return=SUCCESS
+procName=wscntfy.exe
+#326930000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3116
+Return=SUCCESS
+procName=malware.exe
+#327040000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#327040000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#327160000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=4
+Return=SUCCESS
+procName=
+#327160000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=288
+Return=SUCCESS
+procName=smss.exe
+#327170000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=396
+Return=FAILURE
+#327170000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=428
+Return=SUCCESS
+procName=winlogon.exe
+#327170000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=488
+Return=SUCCESS
+procName=services.exe
+#327170000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=500
+Return=SUCCESS
+procName=lsass.exe
+#327180000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=692
+Return=SUCCESS
+procName=svchost.exe
+#327180000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=776
+Return=FAILURE
+#327180000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=844
+Return=SUCCESS
+procName=svchost.exe
+#327180000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1064
+Return=FAILURE
+#327190000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1116
+Return=FAILURE
+#327190000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1320
+Return=SUCCESS
+procName=spoolsv.exe
+#327190000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1376
+Return=SUCCESS
+procName=explorer.exe
+#327200000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1896
+Return=SUCCESS
+procName=rundll32.exe
+#327200000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1920
+Return=SUCCESS
+procName=jusched.exe
+#327200000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=2892
+Return=FAILURE
+#327200000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3008
+Return=SUCCESS
+procName=wscntfy.exe
+#327200000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3116
+Return=SUCCESS
+procName=malware.exe
+#327300000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#327300000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#327430000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=4
+Return=SUCCESS
+procName=
+#327430000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=288
+Return=SUCCESS
+procName=smss.exe
+#327430000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=396
+Return=FAILURE
+#327440000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=428
+Return=SUCCESS
+procName=winlogon.exe
+#327440000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=488
+Return=SUCCESS
+procName=services.exe
+#327440000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=500
+Return=SUCCESS
+procName=lsass.exe
+#327440000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=692
+Return=SUCCESS
+procName=svchost.exe
+#327440000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=776
+Return=FAILURE
+#327450000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=844
+Return=SUCCESS
+procName=svchost.exe
+#327450000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1064
+Return=FAILURE
+#327450000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1116
+Return=FAILURE
+#327460000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1320
+Return=SUCCESS
+procName=spoolsv.exe
+#327460000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1376
+Return=SUCCESS
+procName=explorer.exe
+#327460000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1896
+Return=SUCCESS
+procName=rundll32.exe
+#327460000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=1920
+Return=SUCCESS
+procName=jusched.exe
+#327470000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=2892
+Return=FAILURE
+#327470000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3008
+Return=SUCCESS
+procName=wscntfy.exe
+#327470000
+OpenProcess
+desiredAccess=SYNCHRONIZE PROCESS_QUERY_INFORMATION 
+dwProcessId=3116
+Return=SUCCESS
+procName=malware.exe
+#327870000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ie\VideoPlayerV3beta10296.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#327870000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ie\VideoPlayerV3beta10296.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#338250000
+LoadLibrary
+lpFileName=VERSION.dll
+Return=SUCCESS
+#338340000
+CreateFile
+hName=C:\WINDOWS\system32\regsvr32.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#338420000
+CreateFile
+hName=C:\WINDOWS\system32\regsvr32.exe
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=SUCCESS
+#339970000
+RegQueryValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders\Cache
+Return=0
+#340000000
+LoadLibrary
+lpFileName=advapi32.dll
+Return=SUCCESS
+#337260000
+CreateProcessInternal
+lpCommandLine=regsvr32 "C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ie\VideoPlayerV3beta10296.dll" /s
+Return=SUCCESS
+dwProcessId=3196
+dwThreadId=3200
+#337260000
+CreateProcessInternal
+lpCommandLine=regsvr32 "C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ie\VideoPlayerV3beta10296.dll" /s
+Return=SUCCESS
+dwProcessId=3196
+dwThreadId=3200
+#337260000
+CreateProcess
+lpCommandLine=regsvr32 "C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ie\VideoPlayerV3beta10296.dll" /s
+Return=SUCCESS
+dwProcessId=3196
+dwThreadId=3200
+#357760000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components
+Return=0
+#357770000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components\Ie
+type=REG_SZ
+data=1
+Return=0
+#358070000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ch\VideoPlayerV3beta10296.crx
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#358070000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ch\VideoPlayerV3beta10296.crx
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#370710000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cpplhmgfikfbhcnlfnaekndoocohplbg
+Return=0
+#370790000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cpplhmgfikfbhcnlfnaekndoocohplbg\path
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ch\VideoPlayerV3beta10296.crx
+Return=0
+#370800000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cpplhmgfikfbhcnlfnaekndoocohplbg
+Return=0
+#370810000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Google\Chrome\Extensions\cpplhmgfikfbhcnlfnaekndoocohplbg\version
+type=REG_SZ
+data=1.1
+Return=0
+#370820000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components
+Return=0
+#370830000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components\Ch
+type=REG_SZ
+data=1
+Return=0
+#371220000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome.manifest
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#371220000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome.manifest
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#371420000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\install.rdf
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#371420000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\install.rdf
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372000000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\ffVideoPlayerV3beta10296.js
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372000000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\ffVideoPlayerV3beta10296.js
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372270000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\ffVideoPlayerV3beta10296ffaction.js
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372270000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\ffVideoPlayerV3beta10296ffaction.js
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372570000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\overlay.xul
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#372570000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\overlay.xul
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#373000000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\icons\Thumbs.db
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#373000000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\icons\Thumbs.db
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#377840000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\icons\default\VideoPlayerV3beta10296_32.png
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#377840000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff\chrome\content\icons\default\VideoPlayerV3beta10296_32.png
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#382410000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox\Extensions
+Return=0
+#382470000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox\Extensions\ext@VideoPlayerV3beta10296.net
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff
+Return=0
+#382480000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components
+Return=0
+#382490000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Components\ff
+type=REG_SZ
+data=1
+Return=0
+#382500000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\VideoPlayerV3\Video Player
+Return=0
+#382520000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\VideoPlayerV3\Video Player\installed
+type=REG_SZ
+data=1
+Return=0
+#382520000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player
+Return=0
+#382560000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Video Player\Path
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296
+Return=0
+#382790000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\uninstall.exe
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#382780000
+CreateFile
+hName=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\uninstall.exe
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_ALWAYS
+Return=SUCCESS
+#440450000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#440550000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\DisplayName
+type=REG_SZ
+data=Video Player
+Return=0
+#440640000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#440650000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\DisplayVersion
+type=REG_SZ
+data=1.1
+Return=0
+#440660000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#440670000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\Publisher
+type=REG_SZ
+data=Video Player
+Return=0
+#440780000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#440790000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\URLInfoAbout
+type=REG_SZ
+data=
+Return=0
+#440890000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#441070000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\DisplayIcon
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\uninstall.exe
+Return=0
+#441080000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#441320000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\UninstallString
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\uninstall.exe
+Return=0
+#441460000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#441460000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\NoModify
+type=REG_DWORD
+data=1
+Return=0
+#441550000
+RegCreateKey
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player
+Return=0
+#441610000
+RegSetValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Video Player\NoRepair
+type=REG_DWORD
+data=1
+Return=0
+#441990000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#441990000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#443970000
+RegCreateKey
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Approved Extensions
+Return=0
+#446330000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\LDAP\LdapClientIntegrity
+Return=0
+type=REG_DWORD
+data=1
+#443990000
+LoadLibrary
+lpFileName=NTMARTA.DLL
+Return=SUCCESS
+#447140000
+RegSetValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Approved Extensions\{9d9b16dc-5baa-4c7f-9197-358ac6d3b258}
+type=REG_BINARY
+data=51667A6C4C1D3B1BCC0C8D8C980B19068F9F6AD6C795F643
+Return=0
+#447150000
+RegCreateKey
+hKey=HKEY_CLASSES_ROOT\CLSID\{9d9b16dc-5baa-4c7f-9197-358ac6d3b258}
+Return=0
+#447170000
+RegSetValue
+hKey=HKEY_CLASSES_ROOT\CLSID\{9d9b16dc-5baa-4c7f-9197-358ac6d3b258}\
+type=REG_SZ
+data=Video Player
+Return=0
+#447700000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#447700000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#448590000
+RegCreateKey
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Approved Extensions
+Return=0
+#448770000
+RegSetValue
+hKey=HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Approved Extensions\{9d9b16dc-5baa-4c7f-9197-358ac6d3b258}
+type=REG_BINARY
+data=51667A6C4C1D3B1BCC0C8D8C980B19068F9F6AD6C795F643
+Return=0
+#449300000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#449300000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#449840000
+CreateProcessInternal
+lpApplicationName=C:\Program Files\Google\Chrome\Application\chrome.exe
+Return=FAILURE
+#449840000
+CreateProcess
+lpApplicationName=C:\Program Files\Google\Chrome\Application\chrome.exe
+Return=FAILURE
+#450030000
+CreateFile
+hName=C:\Documents and Settings\ants\Local Settings\Application Data\Google\Chrome\User Data\Default\Preferences
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#451110000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#451100000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#451830000
+CreateProcessInternal
+lpApplicationName=C:\Program Files\Mozilla Firefox\firefox.exe
+Return=FAILURE
+#451830000
+CreateProcess
+lpApplicationName=C:\Program Files\Mozilla Firefox\firefox.exe
+Return=FAILURE
+#452560000
+CreateFile
+hName=C:\extensions.sqlite
+desiredAccess=GENERIC_READ GENERIC_WRITE 
+creationDisposition=OPEN_ALWAYS
+Return=SUCCESS
+#454590000
+RegQueryValue
+hKey=HKEY_LOCAL_MACHINE\SOFTWARE\Mozilla\Firefox\Extensions\ext@VideoPlayerV3beta10296.net
+Return=0
+type=REG_SZ
+data=C:\Program Files\VideoPlayerV3\VideoPlayerV3beta10296\ff
+#454690000
+CreateFile
+hName=\extensions.json
+desiredAccess=GENERIC_READ 
+creationDisposition=OPEN_EXISTING
+Return=FAILURE
+#455690000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#455690000
+CreateFile
+hName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+desiredAccess=GENERIC_WRITE 
+creationDisposition=CREATE_NEW
+Return=FAILURE
+#456440000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+Return=FAILURE
+#456440000
+DeleteFile
+fileName=C:\DOCUME~1\ants\LOCALS~1\Temp\nsn2.tmp\aminsis.dll
+Return=FAILURE
+#457200000
+ExitProcess

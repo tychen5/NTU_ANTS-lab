@@ -1,0 +1,48 @@
+Zipped files with password:
+
+Example: 351m_484h.zip
+
+國網中心, 2014/10/30, 357 檔案 -> 351 Win32 EXE -> 484 hooklog
+國網中心, 2015/06/09, 845 檔案 -> 733 Win32 EXE -> 1280 hooklog 
+國網中心, 2016/11/30, 1000 檔案 -> 252 Win32 EXE -> 304 hooklog
+國網中心, 2017/2/14, 10000 檔案 -> 6884 Win32 EXE -> 5954 hash -> 5963 hooklog
+
+==
+
+#MIKE: 20170808
+
+Some hooklogs are encodede by ASCII (not UTF-8) which sometimes make the hooklog parser error. You can try to open the file by notepad.exe and save it as UTF-8 NO-BOM or simply ignore them. Here are the known samples and their spawn proecesses:
+3774273e4d3ec3a8bb0d18b5edd7543f51167250cd080f3f6ea8ee1aa59ae2e7_3332.trace.hooklog
+5e7bc2ef6387c0f7e7642b175d037c6dfaaa890fd21998b55e3a522ef2cc330c_3256.trace.hooklog
+843d08cb74cc82dd238d18be8cdd8765c5e5e893356d368544e018297dc7d251_3272.trace.hooklog
+bdba8684e0c7d081edcb4bc8503ea6ac8f9a54c72078673d6a197fb6f082006b_3272.trace.hooklog
+ce20b670c0a40c813c0ff5d20dd5912ebaff9727d804b9a6013fc5c311a006ed_3356.trace.hooklog
+e74c265a2504af9e7a490bff3aeb43bbbd6c041dc55deefada1cbe978c69ee74_3188.trace.hooklog
+ee898c4ec4e1ced50fae919bc4c487bbaa6a3ad7e7b6e72e9d17d3d0e5fac30c_3332.trace.hooklog
+fa8c4f944aee873e846af9de52c19b695b44cbb2f57087f66daf336f6aa51e28_3168.trace.hooklog
+ff41e22f1b9257d7cced10bb57f8ebe0_3092.trace.hooklog
+ff41e22f1b9257d7cced10bb57f8ebe0_3144.trace.hooklog
+ffa1dbac37eb1ae37414f3e89e9cef70_3160.trace.hooklog
+ffa1dbac37eb1ae37414f3e89e9cef70_3176.trace.hooklog
+
+
+After filtering, 8019 hooklogs (processes).
+==
+
+Some specific families are stored in the directories.
+
+Good samples:
+morstar_old: used by Mike, 31 processes, 3 main groups, 3 outliers.
+
+allaple_woj_g_98: 34 processes, 31 hashes, 1 group. 2016: 30, 2017: 1.
+bettersurf_woj_g_137+: 64 processes, 28 hashes, 3 groups.
+elkern_woj_g_127: 49p/49h, 1 group.
+firseria_woj_g_144+: 68p/59h, 4 groups.
+kazy_woj_g_290: 19p/19h, 1 group.
+loadmoney_woj_g_184: 15p/8h, 1 group.
+loadmoney_woj_g_189: 55p/55h, 1 group.
+lydra_woj_g_44: 14p/14h, 1 group.
+madang_woj_g_137: 24p/23h, 1 group.
+mira_woj_g_107: 33 processes, 33 hashes, 1 group. All 2016 samples.
+somoto_woj: 59 processes, 23 hashes, 3 groups, 2 outliers. 2016:8, 2015:1, 2014:8, 2013:1.
+sytro_woj_g_166: 73 processes, 73 hashes, 1 groups. 2014:21, 2015:39.
