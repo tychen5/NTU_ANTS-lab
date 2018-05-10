@@ -6,7 +6,6 @@ __pycache__/
 # file not needed
 **/data/*
 **/.ipynb_checkpoints/*
-**/*.ipynb
 **/logs/*
 **/result/*
 
