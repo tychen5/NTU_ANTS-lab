@@ -22,4 +22,9 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 ### 作法 ###
 1. 先跑RasMMAExample.ipynb並產生出pickle
 2. 再跑CollectForestInfo.ipynb
-    * 利用
+    * 需讀入所產生出的intermediate.pickle跟residual.pickle以產生CollectForestInfo的建構子初始化
+    * 
+    
+### HINT & Notice ###
+1. 建議從數字大的家族開始跑以測試自己自動化程式的完整性與正確性
+2. 
