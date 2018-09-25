@@ -9,10 +9,11 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 - RasMMA illustration: https://mega.nz/#!0hFkUI7R!JZktrdDB-LrYtcYBwygJgvG5OT_VAwXNtdMQ5b_tUvg
 
 **Tested Environmnet**
-* Python3.6 (anaconda)
+* Python3.6 (latest anaconda)
 * Ubuntu 16.04.5
 
 ## 2018/09/25 UPDATE ##
+(目前非本週進度)
 當上面兩個步驟做法完成以後
 
 接下來要將各自所負責的家族，各tree的rep pickle讀出來，會得到2D的list，例如: `[['RegQueryValue#PR@HKLM@sys_curCtlSet_ctl_sessionManager\\*#PR@SUBK@criticalsectiontimeout#PR@0#PR@12f9b0#Ret#0',
@@ -25,6 +26,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 
 接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary <MOS> CopyFile <EOS>`
    - (one-hot encoding轉換我還在試驗統一，會再進行說明)
+### 輸出 ###
+* 
 
 
 ## 2018/09/22 ##
@@ -43,8 +46,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 1. 先跑RasMMAExample.ipynb並產生出pickle
 2. 再跑CollectForestInfo.ipynb
     * 需讀入所產生出的intermediate.pickle跟residual.pickle以產生CollectForestInfo的建構子初始化
-    * 利用getTreeMembers函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
-    * 利用getRepMotifSequence函式來獲取該family forest各tree的hooklogs => `for tree in forest:`
+    * 利用**getTreeMembers**函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
+    * 利用**getRepMotifSequence**函式來獲取該family forest各tree的hooklogs => `for tree in forest:`
     
 ### HINT & Notice ###
 1. 建議從數字大的家族開始跑以測試自己自動化程式的完整性與正確性
