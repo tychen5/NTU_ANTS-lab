@@ -12,7 +12,22 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Python3.6 (anaconda)
 * Ubuntu 16.04.5
 
-## 2018/09/22 Update ##
+## 2018/09/25 UPDATE ##
+當上面兩個步驟做法完成以後
+
+接下來要將各自所負責的家族，各tree的rep pickle讀出來，會得到2D的list，例如: `[['RegQueryValue#PR@HKLM@sys_curCtlSet_ctl_sessionManager\\*#PR@SUBK@criticalsectiontimeout#PR@0#PR@12f9b0#Ret#0',
+  'RegQueryValue#PR@HKLM@soft_ms_ole\\*#PR@SUBK@rwlockresourcetimeout#PR@0#PR@12f9b4#Ret#P',
+  'LoadLibrary#PR@SYS@wininet@DLL#Ret#P',
+  'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',
+  'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',],['CopyFile#PR@ARB@DLL#PR@ARB@DLL#Ret#N']]`
+
+則要將前面的api call萃取出來變成: `[[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary],[CopyFile]]`
+
+接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token
+   - (我還在做，會再進行說明)
+
+
+## 2018/09/22 ##
 ### 分工 ###
 * family 1.~15. => 智誠
 * family 16.~40. => 子庭
