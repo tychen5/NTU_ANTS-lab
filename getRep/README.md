@@ -23,8 +23,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 
 則要將前面的api call萃取出來變成: `[[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary],[CopyFile]]`
 
-接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary <COM> CopyFile <EOS>`
-   - (one-hot encoding我還在做，會再進行說明)
+接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary <MOS> CopyFile <EOS>`
+   - (one-hot encoding轉換我還在試驗統一，會再進行說明)
 
 
 ## 2018/09/22 ##
