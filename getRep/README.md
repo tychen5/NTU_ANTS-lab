@@ -49,6 +49,28 @@ Propose a sequence-based clustering algorithm to analyze malwares.
     * 利用**getTreeMembers**函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
     * 利用**getRepMotifSequence**函式來獲取該family forest各tree的hooklogs => `for tree in forest:`
     
+### 參考程式碼 by 智誠
+1. 把multi-process加進RasMMAExample.ipynb，可指定一個範圍的family number下去跑 (ex: 1~15), 並用shared memory queue紀錄錯誤訊息。
+2. CollectForestInfo.ipynb裡面提供dump出各家族下各顆樹的hooklog以及rep sequence
+3. 最終ouput的目錄結構如下：
+```
+- family_name
+    - tree_name
+        - *.trace.hooklog
+        - rep.pickle
+
+- allaple_0.8
+    - G1286
+        - 4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3268.trace.hooklog
+        - a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.trace.hooklog
+        - rep.pickle
+    - G1294
+    ...
+...
+```
+
+**大家最好資料夾和檔案命名可以一致，不然到時候學長要讀資料來training的時候會崩潰。**
+    
 ### HINT & Notice ###
 1. 建議從數字大的家族開始跑以測試自己自動化程式的完整性與正確性
 2. 太大的檔案可以透過一些統計的方法(iqr)把離群值(outlier)拿掉再來跑，不然會跑到天荒地老
