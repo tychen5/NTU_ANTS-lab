@@ -70,6 +70,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 ```
 
 **大家最好資料夾和檔案命名可以一致，不然到時候學長要讀資料來training的時候會崩潰。**
+
+**請至少資料夾階層數要一樣**
     
 ### HINT & Notice ###
 1. 建議從數字大的家族開始跑以測試自己自動化程式的完整性與正確性
