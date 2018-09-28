@@ -22,9 +22,9 @@ Propose a sequence-based clustering algorithm to analyze malwares.
   'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',
   'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',],['CopyFile#PR@ARB@DLL#PR@ARB@DLL#Ret#N']]`
 
-則要將前面的api call萃取出來變成: `[[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary],[CopyFile]]`
+則要將前面的api call萃取出來變成: `[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary,CopyFile]`
 
-接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary <MOS> CopyFile <EOS>`
+接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary CopyFile <EOS>`
    - one-hot encoding: 利用output/api_enc.pkl 檔案作為轉換依據，load pickle後為一dataframe，利用api作為key值來轉換，轉換方式為df['XXX'].values可得該XXX的numpy array。如: df.['CreateFile'].values可得array([0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
 ### 輸出 ###
 * 為一個2D的numpy array pickle
