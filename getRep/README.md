@@ -28,7 +28,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
    
 ### 做法 ###
 * 將前兩步驟該tree的rep之pickle讀入以後可獲得api call sequences的list
-* 同時讀入api_enc.pkl檔案可獲得one-hot dataframe
+* 同時讀入api_enc.pkl檔案可獲得one-hot dataframe: https://github.com/tychen5/NTU_ANTS-lab/tree/master/malwareTagging/output
 * 將api call sequences處理後可得去除parameters僅有api的list
 * 接下來將list每個元素利用上述one-hot encoding方式轉換為2D numpy array
 * 接下來看該tree有幾個hooklogs進行duplicate該2D array，因此會變成3D numpy array (即便只有一個trace也要expand dimension變成3D)
