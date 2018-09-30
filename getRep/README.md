@@ -12,22 +12,30 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Python3.6 (latest anaconda)
 * Ubuntu 16.04.5
 
-## 2018/09/25 UPDATE ##
-(目前非本週進度)
-當上面兩個步驟做法完成以後
+## 2018/09/30 UPDATE ##
+當下面09/22兩個步驟做法完成以後
 
-接下來要將各自所負責的家族，各tree的rep pickle讀出來，會得到2D的list，例如: `[['RegQueryValue#PR@HKLM@sys_curCtlSet_ctl_sessionManager\\*#PR@SUBK@criticalsectiontimeout#PR@0#PR@12f9b0#Ret#0',
+接下來要將各自所負責的家族，各tree的rep pickle讀出來，會得到1D的list，例如: `['RegQueryValue#PR@HKLM@sys_curCtlSet_ctl_sessionManager\\*#PR@SUBK@criticalsectiontimeout#PR@0#PR@12f9b0#Ret#0',
   'RegQueryValue#PR@HKLM@soft_ms_ole\\*#PR@SUBK@rwlockresourcetimeout#PR@0#PR@12f9b4#Ret#P',
   'LoadLibrary#PR@SYS@wininet@DLL#Ret#P',
   'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',
-  'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P',],['CopyFile#PR@ARB@DLL#PR@ARB@DLL#Ret#N']]`
+  'LoadLibrary#PR@SYS@advapi32@DLL#Ret#P','CopyFile#PR@ARB@DLL#PR@ARB@DLL#Ret#N',...]`
 
-則要將前面的api call萃取出來變成: `[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary,CopyFile]`
+則要將前面的api call萃取出來變成: `[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary,CopyFile,...]`
 
-接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary CopyFile <EOS>`
-   - one-hot encoding: 利用output/api_enc.pkl 檔案作為轉換依據，load pickle後為一dataframe，利用api作為key值來轉換，轉換方式為df['XXX'].values可得該XXX的numpy array。如: df.['CreateFile'].values可得array([0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+接下來要對之進行one-hot encoding的轉換並加上start token、~~comma token~~、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary CopyFile ... <EOS>`
+   - one-hot encoding: 利用output/api_enc.pkl 檔案作為轉換依據，load pickle後為一dataframe，利用api作為key值來轉換，轉換方式為df['XXX'].values可得該XXX的numpy array。如: df.['CreateFile'].values可得array([0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+   
+### 做法 ###
+* 將前兩步驟該tree的rep之pickle讀入以後可獲得api call sequences的list
+* 同時讀入api_enc.pkl檔案可獲得one-hot dataframe
+* 將api call sequences處理後可得去除parameters僅有api的list
+* 接下來將list每個元素利用上述one-hot encoding方式轉換為2D numpy array
+* 接下來看該tree有幾個hooklogs進行duplicate該2D array，因此會變成3D numpy array (即便只有一個trace也要expand dimension變成3D)
+* 最終要輸出numpy的shape為(該tree有幾個members, 該tree的rep長度,37)
+
 ### 輸出 ###
-* 為一個2D的numpy array pickle
+* 每個tree為一個3D的numpy array pickle
 
 
 ## 2018/09/22 ##
@@ -47,7 +55,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 2. 再跑CollectForestInfo.ipynb
     * 需讀入所產生出的intermediate.pickle跟residual.pickle以產生CollectForestInfo的建構子初始化
     * 利用**getTreeMembers**函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
-    * 利用**getRepMotifSequence**函式來獲取該family forest各tree的hooklogs => `for tree in forest:`
+    * 利用**getRepAPISeq_dict()** 或是**getRepAPISeq**函式來獲取該family forest各tree的hooklogs <= 1D list
     
 ### 參考程式碼 by 智誠
 1. 把multi-process加進RasMMAExample.ipynb，可指定一個範圍的family number下去跑 (ex: 1~15), 並用shared memory queue紀錄錯誤訊息。
