@@ -35,7 +35,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * 最終要輸出numpy的shape為(該tree有幾個members, 該tree的rep長度,37)
 
 ### 輸出 ###
-* 每個tree為一個3D的numpy array pickle
+* 為每個tree產生一個3D的numpy array pickle
+* 上傳到Google drive: https://drive.google.com/drive/u/0/folders/1x-zt2ZZnpMwfDKH22ORa3Tvpm6P0UxFS
 
 
 ## 2018/09/22 ##
@@ -47,7 +48,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 ### 輸出 ###
 * 一個家族底下會有很多個資料夾(forest)
   * 每個資料夾代表一個tree
-   * 裡面會有該tree對應的traces(hooklog)以及該tree的rep (2D list的pickle檔案)
+   * 裡面會有**該tree對應的traces(hooklog)** 以及該tree的rep (1D list的pickle檔案)
 * 上傳到Google drive: https://drive.google.com/drive/u/0/folders/1x-zt2ZZnpMwfDKH22ORa3Tvpm6P0UxFS
    
 ### 作法 ###
