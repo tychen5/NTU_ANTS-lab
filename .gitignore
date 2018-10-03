@@ -9,7 +9,8 @@ __pycache__/
 **/logs/*
 **/result/*
 **/DATA/*
-
+*~
+**~
 # C extensions
 *.so
 
