@@ -38,7 +38,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * 為每個tree產生一個3D的numpy array pickle
 * 輸出資料階層:family=>tree=> **hooklogs & REP's 3D numpy array pickle** (一起放在同一個資料夾裡面)
 * 上傳到Google drive: https://drive.google.com/drive/u/0/folders/1x-zt2ZZnpMwfDKH22ORa3Tvpm6P0UxFS
-* 壓縮請用zip
+* 壓縮請用zip最外層資料夾請統一名字tree-rep-logs/
 
 
 ## 2018/09/22 ##
