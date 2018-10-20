@@ -9,6 +9,7 @@ __pycache__/
 **/logs/*
 **/result/*
 **/DATA/*
+**/output/*
 *~
 **~
 # C extensions
