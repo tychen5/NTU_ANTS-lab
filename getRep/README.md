@@ -58,7 +58,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 2. 再跑CollectForestInfo.ipynb
     * 需讀入所產生出的intermediate.pickle跟residual.pickle以產生CollectForestInfo的建構子初始化
     * 利用**getTreeMembers**函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
-    * 利用**getRepAPISeq_dict()** 或是**getRepAPISeq**函式來獲取該family forest各tree的hooklogs <= 1D list
+    * 利用**getRepAPISeq_dict()** 或是**getRepAPISeq**函式來獲取該family forest各tree的REP <= 1D list
     
 ### 參考程式碼 by 智誠
 1. 把multi-process加進RasMMAExample.ipynb，可指定一個範圍的family number下去跑 (ex: 1~15), 並用shared memory queue紀錄錯誤訊息。
