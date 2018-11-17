@@ -17,7 +17,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 **目標:** 
 
 1. 需將REP中的各motif拆開，並加入\<BOS\>於第一個motif的開頭，且於最後一個motif結尾加入\<EOS\>，而motif跟motif之間要加入\<MOS\>
-2. 利用utils/api_enc2.pkl檔案(https://github.com/tychen5/NTU_ANTS-lab/blob/master/getRep/utils/api_enc2.pkl)將\<BOS\>、motifs、\<MOS\>、\<EOS\>都轉換依據進行one-hot encoding變成2D numpy array
+2. 利用utils/api_enc2.pkl檔案( https://github.com/tychen5/NTU_ANTS-lab/blob/master/getRep/utils/api_enc2.pkl )將\<BOS\>、motifs、\<MOS\>、\<EOS\>都轉換依據進行one-hot encoding變成2D numpy array
 3. 另存一個具有api call與parameters的string list，在不同的motif list之間加入'\<MOS\>'，把REP的各list合成一個1D list
   
 =>注意1. 2.僅使用api function name；3.則為整個invocation call(api name+所有parameters)不用轉換為onehot
@@ -31,7 +31,9 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 5. 將兩個pickle儲存於對應的tree目錄底下(tree-rep-logs/family/tree/***.pickle 例如:tree-rep-logs/allaple_0.8/G1299/api_name.pickle)
 6. 將tree-rep-logs資料夾壓縮成zip，再將zip檔案名稱重新命名加上family範圍，上傳至https://drive.google.com/drive/u/0/folders/1T2MdJ7nAwLZKBuISGw5-SmzkYADtJ49s
   
-=>注意: special tokens包含\<BOS\>、\<MOS\>、\<EOS\>請務必加入並一起轉換為one-hot
+=>注意: special tokens包含\<BOS\>、\<MOS\>、\<EOS\>請務必加入並一起轉換為one-hot；parameter_rep.pickle中的\<MOS\>則不用轉換，保留字串型態於list中即可
+
+=>Deadline: 11/22 18:00
 
 ## 2018/09/30 ##
 當下面09/22兩個步驟做法完成以後
@@ -45,7 +47,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 則要將前面的api call萃取出來變成: `[RegQueryValue,RegQueryValue,LoadLibrary,LoadLibrary,LoadLibrary,CopyFile,...]`
 
 接下來要對之進行one-hot encoding的轉換並加上start token、comma token、endding token: `<BOS> RegQueryValue RegQueryValue LoadLibrary LoadLibrary LoadLibrary CopyFile ... <EOS>`
-   - one-hot encoding: 利用output/api_enc.pkl 檔案作為轉換依據，load pickle後為一dataframe，利用api作為key值來轉換，轉換方式為df['XXX'].values可得該XXX的numpy array。如: df['<MOS>'].values可得array([0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
+   - one-hot encoding: 利用output/api_enc.pkl 檔案作為轉換依據，load pickle後為一dataframe，利用api作為key值來轉換，轉換方式為df['XXX'].values可得該XXX的numpy array。如: df['\<MOS\>'].values可得array([0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0])
    
 ### 做法 ###
 * 將前兩步驟該tree的rep之pickle讀入以後可獲得api call sequences的list
