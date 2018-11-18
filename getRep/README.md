@@ -28,8 +28,8 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 2. 將REP list中的api function name取出，並於第一個motif開頭加入\<BOS\>，motif間加入\<MOS\>，最後一個motif加入\<EOS\>，且將所有REP的list串在一起變成1D list
 3. 利用api_enc2.pkl將\<BOS\>、\<MOS\>、\<EOS\>及api names轉換為one-hot(例如: df['\<MOS\>'].values)，再將整個list轉換為2D numpy array存成api_name.pickle
 4. 一樣利用getRepMotifSequence()或是或是getRepAPISeq_dict()取得REP(function name & parameters)以後，將motif與motif之間於list多加入\"\<MOS\>\"字串型態的元素，最後也是將該tree的REP轉換為1D的list，每個element就是一個完整的api invocation call(包含parameters)或是\<MOS\>，都是字串型態，再將該1D list存為parameter_rep.pickle
-5. 將兩個pickle儲存於對應的tree目錄底下(tree-rep-logs/family/tree/***.pickle 例如:tree-rep-logs/allaple_0.8/G1299/api_name.pickle)
-6. 將tree-rep-logs資料夾壓縮成zip，再將zip檔案名稱重新命名加上family範圍，上傳至https://drive.google.com/drive/u/0/folders/1T2MdJ7nAwLZKBuISGw5-SmzkYADtJ49s
+5. 將兩個pickle儲存於對應的tree目錄底下(tree-rep-logs-profile/family/tree/***.pickle 例如:tree-rep-logs-profile/allaple_0.8/G1299/api_name.pickle)
+6. 將tree-rep-logs-profile資料夾壓縮成zip，再將zip檔案名稱重新命名加上family範圍，上傳至https://drive.google.com/drive/u/0/folders/1T2MdJ7nAwLZKBuISGw5-SmzkYADtJ49s
   
 =>注意: special tokens包含\<BOS\>、\<MOS\>、\<EOS\>請務必加入並一起轉換為one-hot；parameter_rep.pickle中的\<MOS\>則不用轉換，保留字串型態於list中即可
 
