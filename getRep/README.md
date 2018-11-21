@@ -13,7 +13,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2018/11/17 UPDATE ##
+## 2018/11/21 UPDATE ##
 **目標:** 
 
 1. 需將REP中的各motif拆開，並加入\<BOS\>於第一個motif的開頭，且於最後一個motif結尾加入\<EOS\>，而motif跟motif之間要加入\<MOS\>
