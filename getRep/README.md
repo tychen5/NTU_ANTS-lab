@@ -20,7 +20,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 2. 利用utils/api_enc2.pkl檔案( https://github.com/tychen5/NTU_ANTS-lab/blob/master/getRep/utils/api_enc2.pkl )將\<BOS\>、motifs、\<MOS\>、\<EOS\>都轉換依據進行one-hot encoding變成2D numpy array
 3. 另存一個具有api call與parameters的string list，在不同的motif list之間加入'\<MOS\>'，把REP的各list合成一個1D list
   
-=>注意1. 2.僅使用api function name；3.則為整個invocation call(api name+所有parameters)不用轉換為onehot
+=>注意1. 2.僅使用api function name；3.則為整個invocation call(api name+所有profile的parameters)不用轉換為onehot
 
 **做法:**
 
