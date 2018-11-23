@@ -8,11 +8,14 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 - documentation: https://mega.nz/#!N1NAXSjZ!lHyUl2gZFTjbRpa1PSTSGQ3z3uvQelgWKaGXPq-hxOQ
 - RasMMA illustration: https://mega.nz/#!0hFkUI7R!JZktrdDB-LrYtcYBwygJgvG5OT_VAwXNtdMQ5b_tUvg
 
-- Profile: https://drive.google.com/open?id=1qh_ZWGEkkw7fkieqzHn1UYEIKetCUzQF
-- 原本traces對應: https://drive.google.com/drive/folders/1x-zt2ZZnpMwfDKH22ORa3Tvpm6P0UxFS
-- Motifs: https://drive.google.com/drive/folders/1T2MdJ7nAwLZKBuISGw5-SmzkYADtJ49s
+- 縮減的Profile(******.hooklog): https://drive.google.com/open?id=1qh_ZWGEkkw7fkieqzHn1UYEIKetCUzQF
+- 完整的traces檔案結構(family/tree/******.hooklog): https://drive.google.com/drive/folders/1x-zt2ZZnpMwfDKH22ORa3Tvpm6P0UxFS
+- Motifs檔案結構(family/tree/parameter_rep.pickle): https://drive.google.com/drive/folders/1T2MdJ7nAwLZKBuISGw5-SmzkYADtJ49s
 
 (family/tree/***)
+
+- RasMMA流程解釋： https://drive.google.com/open?id=1QxqczGfmmbuwIbpt-OaT5CD-THeAoUWV
+
 
 **Tested Environmnet**
 * Python3.6 (latest anaconda)
