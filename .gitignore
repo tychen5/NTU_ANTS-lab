@@ -10,6 +10,7 @@ __pycache__/
 **/result/*
 **/DATA/*
 **/output/*
+**/model/*
 *~
 **~
 # C extensions
