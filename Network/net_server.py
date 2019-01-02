@@ -19,7 +19,7 @@ except socket.error, msg:
     sys.exit(1)
 
 sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1) #reuse tcp
-sock.bind(('140.112.107.194', 10001))
+sock.bind(('140.112.107.194', 11111))
 sock.listen(5)
 print("server on")
 
