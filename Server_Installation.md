@@ -1,7 +1,7 @@
 # SuperPC building
 ## BIOS
 * Update to latest one
-* Use CPU in-built GPU (IGFX-only for default)
+* ~~*Use CPU in-built GPU (IGFX-only for default)*~~
 * Set automatic Overclock CPU and RAM
 
 ## OS
@@ -24,12 +24,12 @@
 * proftp
 * denyhost
 
-## GPU Ultimate Goal: Ubuntu18.04.LTS+Cuda10.+Cudnn7.+Pytorch1.
+## GPU Ultimate Goal: Ubuntu18.04.X LTS+Cuda10.X+Cudnn7.X+Pytorch1.X
 * Best Ref: https://www.imooc.com/article/282412
 
 ***
 
-Bios更新到官網最新版本，設定系統自動化超頻cpu, ram，改成僅用cpu內顯開機（IGFX?）。
+Bios更新到官網最新版本，設定系統自動化超頻cpu, ram，~~改成僅用cpu內顯開機（IGFX?）~~。
 
 Ubuntu 18.04最新server版本，安裝在2TB nvme硬碟上，設定一個空的固定140.112.107.xxx IP。
 
@@ -50,7 +50,7 @@ https://www.digitalocean.com/community/tutorials/how-to-add-swap-space-on-ubuntu
 
 安裝LDAP client去跟.43介接。參考：https://www.server-world.info/en/note?os=Ubuntu_18.04&p=openldap&f=3
 
-安裝NFS client掛載.43 /home到自己的/home，並寫入fstab，請注意本地端帳號將被覆蓋記得備份轉移重建在nfs上面。
+安裝NFS client掛載.43 /home到自己的/home，並寫入fstab，請注意本地端帳號將被覆蓋記得備份轉移重建在nfs上面。 (掛載.45的/FTP)
 
 安裝proftp (standalone)，並設定讓大家可以用ldap帳號登入自己的home目錄上傳下載資料。
 
@@ -62,7 +62,7 @@ https://quantitativenotes.wordpress.com/2016/05/21/pygraphviz-installation/
 
 安裝denyhost，防止暴力嘗試登入（5次鎖IP），其他設定可以自由發揮（例如如何自動解鎖），但要不限IP位址都可登入
 
-格式化另外一個nvme硬碟，掛載在/DATA，chmod 777該目錄，並寫入fstab給大家存資料跟model
+~~格式化另外一個nvme硬碟，~~掛載/DATA(.45的/SAMBA NFS)  ~~，chmod 777該目錄，並寫入fstab給大家存資料跟model~~
 
 
 =========APC Powersuite Ubuntu
