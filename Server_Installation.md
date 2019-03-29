@@ -14,7 +14,7 @@
 
 ## GPU
 * NVIDIA driver for RTX 2080TI
-* CUDA 10.0/10.1
+* CUDA 10.1
 * Cudnn library (corresponding latest version)
 
 ## Packages
@@ -41,7 +41,7 @@ https://www.geforce.com/drivers
 
 https://askubuntu.com/questions/1079852/how-do-i-configure-an-nvidia-rtx-2080-ti-with-ubuntu
 
-Cuda 10.0 + 對應之最新版cudnn developer跟runtime library。參考：https://www.cnblogs.com/zhengbiqing/p/10346212.html
+Cuda 10.1 + 對應之最新版cudnn developer跟runtime library。參考：https://www.cnblogs.com/zhengbiqing/p/10346212.html
 
 格式化一個nvme硬碟，自動掛載至根目錄新目錄的掛載點並寫入fstab，創建檔案將該硬碟全部做成swap，並寫入fstab。參考：
 https://blog.gtwang.org/linux/linux-add-format-mount-harddisk/
