@@ -14,15 +14,18 @@
 
 ## GPU
 * NVIDIA driver for RTX 2080TI
-* CUDA 10.0
+* CUDA 10.0/10.1
 * Cudnn library (corresponding latest version)
 
 ## Packages
 * LDAP client (.43)
-* NFS client (/home)
+* NFS client (.43 /home、.45 /FTP)
 * pygraphviz
 * proftp
 * denyhost
+
+## GPU Ultimate Goal: Ubuntu18.04.LTS+Cuda10.+Cudnn7.+Pytorch1.
+* Best Ref: https://www.imooc.com/article/282412
 
 ***
 
