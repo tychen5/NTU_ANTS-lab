@@ -41,7 +41,7 @@ https://www.geforce.com/drivers
 
 https://askubuntu.com/questions/1079852/how-do-i-configure-an-nvidia-rtx-2080-ti-with-ubuntu
 
-Cuda 10.1 + 對應之最新版cudnn developer跟runtime library。參考：https://www.cnblogs.com/zhengbiqing/p/10346212.html
+Cuda 10.1 + 對應之最新版cudnn developer跟runtime library還有cudnn-10.1-linux-x64-v7.XXX.tgz。參考：https://www.cnblogs.com/zhengbiqing/p/10346212.html (&參考Best Ref怎麼放置檔案)
 
 格式化一個nvme硬碟，自動掛載至根目錄新目錄的掛載點並寫入fstab，創建檔案將該硬碟全部做成swap，並寫入fstab。參考：
 https://blog.gtwang.org/linux/linux-add-format-mount-harddisk/
@@ -62,7 +62,7 @@ https://quantitativenotes.wordpress.com/2016/05/21/pygraphviz-installation/
 
 安裝denyhost，防止暴力嘗試登入（5次鎖IP），其他設定可以自由發揮（例如如何自動解鎖），但要不限IP位址都可登入
 
-~~格式化另外一個nvme硬碟，~~掛載/DATA(.45的/SAMBA NFS)  ~~，chmod 777該目錄，並寫入fstab給大家存資料跟model~~
+ ~~格式化另外一個nvme硬碟，~~ 掛載/DATA(.45的/SAMBA NFS)  ~~，chmod 777該目錄，並寫入fstab給大家存資料跟model~~
 
 
 =========APC Powersuite Ubuntu
