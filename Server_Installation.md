@@ -19,7 +19,7 @@
 * Cudnn library (corresponding latest version)
 
 ## Packages
-* LDAP client (.43 is server)
+* LDAP client (.43 is server=>https://superpc1.leoqaz12.pw)
 * NFS client (.43 /home、.45 /FTP)
 * pygraphviz
 * proftp
