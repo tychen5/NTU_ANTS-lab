@@ -2,7 +2,7 @@
 ## BIOS
 * Update to latest one
 * ~~*Use CPU in-built GPU (IGFX-only for default)*~~
-* Set automatic Overclock CPU and RAM
+* Set automatic Overclock CPU and RAM (X.M.P)
 
 ## OS
 * Ubuntu 18.04 LTS Server(latest version,without GUI)
@@ -14,11 +14,11 @@
 
 ## GPU
 * NVIDIA driver for RTX 2080TI
-* CUDA 10.1
+* CUDA 10.1 (latest version)
 * Cudnn library (corresponding latest version)
 
 ## Packages
-* LDAP client (.43)
+* LDAP client (.43 is server)
 * NFS client (.43 /home、.45 /FTP)
 * pygraphviz
 * proftp
