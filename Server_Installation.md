@@ -6,6 +6,7 @@
 
 ## OS
 * Ubuntu 18.04 LTS Server(latest version,without GUI)
+* hostname: superPC4
 
 ## System Settings
 * ssh change port
