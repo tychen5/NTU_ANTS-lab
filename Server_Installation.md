@@ -10,8 +10,8 @@
 
 ## System Settings
 * ssh change port
-* swap file in nvme (/swap/swap)
-* data dir in nvme (/data)
+* ~~swap file in nvme (/swap/swap)~~
+* ~~data dir in nvme (/data)~~
 
 ## GPU
 * NVIDIA driver for RTX 2080TI
