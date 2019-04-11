@@ -22,7 +22,7 @@
 * LDAP client (.43 is server=>ldap://superpc1.leoqaz12.pw)
 * NFS client (.43 /home、.45 /FTP)
 * pygraphviz
-* proftp
+* proftp with ldap login
 * denyhost
 
 ## GPU Ultimate Goal: Ubuntu18.04.X LTS+Cuda10.X+Cudnn7.X+Pytorch1.X
