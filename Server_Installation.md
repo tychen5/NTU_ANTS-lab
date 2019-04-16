@@ -1,29 +1,29 @@
 # SuperPC building
 ## BIOS
-* Update to latest one
+* [done] Update to latest one
 * ~~*Use CPU in-built GPU (IGFX-only for default)*~~
-* Set automatic Overclock CPU and RAM (X.M.P)
+* [done] Set automatic Overclock CPU and RAM (X.M.P)
 
 ## OS
-* Ubuntu 18.04 LTS Server(latest version,without GUI)
-* hostname: superPC4
+* [done] Ubuntu 18.04 LTS Server(latest version,without GUI)
+* [done] hostname: superPC4
 
 ## System Settings
-* ssh change port
+* [done] ssh change port
 * ~~swap file in nvme (/swap/swap)~~
 * ~~data dir in nvme (/data)~~
 
 ## GPU
-* NVIDIA driver for RTX 2080TI
-* CUDA 10.1 (latest version)
-* Cudnn library (corresponding latest version)
+* [done] NVIDIA driver for RTX 2080TI
+* [building custom docker image right now] CUDA 10.1 (latest version)
+* [building custom docker image right now] Cudnn library (corresponding latest version)
 
 ## Packages
-* LDAP client (.43 is server=>ldap://superpc1.leoqaz12.pw)
-* NFS client (.43 /home、.45 /FTP)
+* [done] LDAP client (.43 is server=>ldap://superpc1.leoqaz12.pw)
+* [done] NFS client (.43 /home、.45 /FTP)
 * pygraphviz
 * proftp with ldap login
-* denyhost
+* [done] denyhost
 
 ## GPU Ultimate Goal: Ubuntu18.04.X LTS+Cuda10.X+Cudnn7.X+Pytorch1.X
 * Best Ref: https://www.imooc.com/article/282412
