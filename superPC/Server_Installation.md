@@ -15,8 +15,8 @@
 
 ## GPU
 * [done] NVIDIA driver for RTX 2080TI
-* [building custom docker image right now] CUDA 10.1 (latest version)
-* [building custom docker image right now] Cudnn library (corresponding latest version)
+* [done] CUDA 10.1 (latest version)
+* [done] Cudnn library (corresponding latest version)
 
 ## Packages
 * [done] LDAP client (.43 is server=>ldap://superpc1.leoqaz12.pw)
