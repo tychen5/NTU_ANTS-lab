@@ -72,7 +72,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 ```
 
 2. 濾除的小樹短樹的目錄結構也同上
-* 輸出資料階層:family=>tree=> **traces & REP's binary sequence pickle** (一起放在同一個資料夾裡面) 
+* 輸出資料階層:family=>tree=> **traces & REP's binary sequence pickle & REP string list** (一起放在同一個資料夾裡面) 
 * 上傳到Google drive: https://drive.google.com/open?id=16jRmgzda8KkYWwSBWyVFQvaeYBOIHT5m
 * 壓縮請用zip最外層資料夾請統一名字tree-rep-profiles 
     * 最外層資料夾會包含兩個子資料夾(一個是小樹短樹的資料夾: small_short/ 另一個是正常樹的資料夾: normal/ )，各個子資料夾底下皆為上述階層
