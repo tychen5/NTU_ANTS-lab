@@ -72,6 +72,10 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 ```
 
 2. 濾除的小樹短樹的目錄結構也同上
+* 輸出資料階層:family=>tree=> **traces & REP's binary sequence pickle** (一起放在同一個資料夾裡面) 
+* 上傳到Google drive: https://drive.google.com/open?id=16jRmgzda8KkYWwSBWyVFQvaeYBOIHT5m
+* 壓縮請用zip最外層資料夾請統一名字tree-rep-profiles 
+    * 最外層資料夾會包含兩個子資料夾(一個是小樹短樹的資料夾: small_short/ 另一個是正常樹的資料夾: normal/ )，各個子資料夾底下皆為上述階層
 
 **Q&A**
 * 修正bug的profile code?
@@ -85,9 +89,9 @@ Propose a sequence-based clustering algorithm to analyze malwares.
  
 profile中的Ret有P N 0 三種值，現在看起來N是失敗、O是成功、P 有成功或是失敗 (因為bug的關係)
 
-trace中，如果成功執行一個API
-Call，通常會回傳0或是SUCCESS，如果失敗的話則是2或是FAILURE。所以直觀來說profile中的0應該是成功，profile中的"P"和"N"應該是失敗。但我剛剛打開profile的時候看到連load很平常的library都是return
-P，和trace一對照發現怪怪的。
+trace中，如果成功執行一個API Call，通常會回傳0或是SUCCESS，如果失敗的話則是2或是FAILURE。所以直觀來說profile中的0應該是成功，profile中的"P"和"N"應該是失敗。但我剛剛打開profile的時候看到連load很平常的library都是return P，和trace一對照發現怪怪的。
+
+* 為甚麼P會有失敗?
 
 ## 2018/11/26 ##
 **目標:** 
