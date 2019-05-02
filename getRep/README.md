@@ -77,6 +77,18 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * 修正bug的profile code?
 * 完成deadline (5/13中午以前)
 
+> if value[0] == "S":
+
+>   retword += "P" # positive
+
+這邊應該要是retword += "0"才對...吧 
+ 
+profile中的Ret有P N 0 三種值，現在看起來N是失敗、O是成功、P 有成功或是失敗 (因為bug的關係)
+
+trace中，如果成功執行一個API
+Call，通常會回傳0或是SUCCESS，如果失敗的話則是2或是FAILURE。所以直觀來說profile中的0應該是成功，profile中的"P"和"N"應該是失敗。但我剛剛打開profile的時候看到連load很平常的library都是return
+P，和trace一對照發現怪怪的。
+
 ## 2018/11/26 ##
 **目標:** 
 
