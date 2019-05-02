@@ -41,7 +41,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
         * REP中一列api invocation call為list的一個element
 4. 將各tree的REP利用字串比對方式對應回各tree底下的profiles，若與motif一樣則輸出1，若profile的api call不存在於REP中輸出0
     * 要完全相同於REP中的某個motif時，才會對那一段profile的api call sequence都會輸出1，否則輸出0
-    * byte sequence儲存為int，存放於list中
+    * byte sequence儲存為int type，存放於list中
     * 將list存成pickle檔案輸出到對應tree資料夾
     * 一個profile會對應一個rep pickle (檔名: *HASH*_*PID*_byterep.pickle)放在tree資料夾下
 5. 將小樹與短樹的tree資料夾保有原本的目錄結構存放到另外一個資料夾巢狀目錄中
