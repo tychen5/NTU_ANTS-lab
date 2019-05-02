@@ -22,7 +22,62 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2018/11/26 UPDATE ##
+## 2019/05/02 Update ##
+**目標:** 
+1. 產生Aries及Aquaris Dataset的profiles
+2. 產生Family (每個family數量>=15)
+3. 依照Family資料夾跑RasMMA產生很多tree資料夾
+4. 依照tree的rep對照profile產生byte sequence (pickle)
+
+
+**做法:**
+1. 將兩個dataset所有trace都先轉換成profiles
+2. 利用virus total query回來的資料跑家族分類演算法，得到family name資料夾底下還有所有對應的profiles
+    * 每個資料夾底下的profiles數量>=15
+    * 兩個dataset一起分family
+3. 同family name的資料夾一起跑RasMMA，得到各tree的REP (一個REP包含很多個motif)
+    * 將profiles移動到各自所屬的tree資料夾底下
+    * 將tree的REP依照motif與motif之間(一串的連續api invocation call sequences)加入\<MOS\>，儲存為string type的1D list，在tree資料夾下輸出成REP.pickle
+        * REP中一列api invocation call為list的一個element
+4. 將各tree的REP利用字串比對方式對應回各tree底下的profiles，若與motif一樣則輸出1，若profile的api call不存在於REP中輸出0
+    * 要完全相同於REP中的某個motif時，才會對那一段profile的api call sequence都會輸出1，否則輸出0
+    * byte sequence儲存為int，存放於list中
+    * 將list存成pickle檔案輸出到對應tree資料夾
+    * 一個profile會對應一個rep pickle (檔名: *HASH*_*PID*_byterep.pickle)放在tree資料夾下
+5. 將小樹與短樹的tree資料夾保有原本的目錄結構存放到另外一個資料夾巢狀目錄中
+    * 小樹: 那個tree裡面的profile數量<=2
+    * 短樹: 那個tree的REP所有motif總長度<=10
+    * 一個row = 一個api invocation call(包含parameters) = 長度(length)1
+    
+**輸出:**
+1. ouput的目錄結構如下：
+```
+- No#.family_name
+    - tree_name
+        - *.profile
+        - *_byterep.pickle
+        - REP.pickle
+
+- 01.allaple_0.8
+    - G1286
+        - 4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3268.profile
+        - a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile
+        - 4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3268_byterep.pickle
+        - a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220_byterep.pickle
+        - REP.pickle
+        ...
+    - G1294
+    ...
+...
+```
+
+2. 濾除的小樹短樹的目錄結構也同上
+
+**Q&A**
+* 修正bug的profile code?
+* 完成deadline (5/13中午以前)
+
+## 2018/11/26 ##
 **目標:** 
 
 1. 需將REP中的各motif拆開，並加入\<BOS\>於第一個motif的開頭，且於最後一個motif結尾加入\<EOS\>，而motif跟motif(一串的連續api invocation call sequences)之間要加入\<MOS\>
