@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/0 Update ##
+## 2019/05/03 Update ##
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
 2. 產生Family (每個family數量>=15)
@@ -171,7 +171,7 @@ trace中，如果成功執行一個API Call，通常會回傳0或是SUCCESS，�
     * 利用**getTreeMembers**函式來獲得該family forest各tree的hooklogs => `for tree in forest:`
     * 利用**getRepAPISeq_dict()** 或是**getRepAPISeq**函式來獲取該family forest各tree的REP <= 1D list
     
-### 參考程式碼 by 智誠
+### 參考程式碼 by 智誠  
 1. 把multi-process加進RasMMAExample.ipynb，可指定一個範圍的family number下去跑 (ex: 1~15), 並用shared memory queue紀錄錯誤訊息。
 2. CollectForestInfo.ipynb裡面提供dump出各家族下各顆樹的hooklog以及rep sequence
 3. 最終ouput的目錄結構如下：
