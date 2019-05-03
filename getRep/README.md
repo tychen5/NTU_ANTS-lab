@@ -4,7 +4,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 
 - dataset: https://drive.google.com/drive/u/0/folders/1PoAn_RuJOyTvJoFkhGbxGo8necwQvHRd
   - 轉profile、Virus Total Query、家族分類的程式在.40 FTP
-  - areis、aquaris trace dataset也在.40 FTP
+  - areis、aquaris trace dataset也在.40 FTP (帳密: sxx / xxa )
 - revised from: https://github.com/weichih-c/Sequence_Analysis
 - documentation: https://mega.nz/#!N1NAXSjZ!lHyUl2gZFTjbRpa1PSTSGQ3z3uvQelgWKaGXPq-hxOQ
 - RasMMA illustration: https://mega.nz/#!0hFkUI7R!JZktrdDB-LrYtcYBwygJgvG5OT_VAwXNtdMQ5b_tUvg
