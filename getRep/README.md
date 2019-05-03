@@ -26,7 +26,14 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
 2. 產生Family (每個family數量>=15)
+    * 兩種family分法:
+        * 一個malware只會對應到一個家族 => 子庭(一個對一個)
+        * 一個malware會對應到多個家族 (只要超過threshold) => 鈞岱(一個對多個)
+    
 3. 依照Family資料夾跑RasMMA產生很多tree資料夾
+    * 兩種RasMMA結果
+        * 子庭: 一個對一個
+        * 鈞岱: 一個對多個
 4. 依照tree的rep對照profile產生byte sequence (pickle)
 
 
