@@ -22,7 +22,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/02 Update ##
+## 2019/05/0 Update ##
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
 2. 產生Family (每個family數量>=15)
