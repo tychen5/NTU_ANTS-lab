@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/03 Update ##
+## 2019/05/05 Update ##
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
 2. 產生Family (每個family數量>=15)
@@ -43,6 +43,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 2. 利用virus total query回來的資料跑家族分類演算法，得到family name資料夾底下還有所有對應的profiles
     * 每個資料夾底下的profiles數量>=15
     * 兩個dataset一起分family
+    * child process跟main process都會一起放到相同家族資料夾中 [2019/05/05]
 3. 同family name的資料夾一起跑RasMMA，得到各tree的REP (一個REP包含很多個motif)
     * 將profiles移動到各自所屬的tree資料夾底下
     * 將tree的REP依照motif與motif之間(一串的連續api invocation call sequences)加入\<MOS\>，儲存為string type的1D list，在tree資料夾下輸出成REP.pickle
