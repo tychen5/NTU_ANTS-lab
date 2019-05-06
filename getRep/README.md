@@ -25,9 +25,9 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 
 ## 2019/05/05 Update ##
 **分工:**
-1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
-2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
-3. 子庭跑Aries dataset的
+~~1. 子庭負責Aries dataset的Virustotal report query也給鈞岱~~
+~~2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭~~
+~~3. 子庭跑Aries dataset的~~
 
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
