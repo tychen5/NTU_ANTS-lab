@@ -44,6 +44,11 @@ Propose a sequence-based clustering algorithm to analyze malwares.
         * 子庭: 一個對一個
         * 鈞岱: 一個對多個
 4. 依照tree的rep對照profile產生byte sequence (pickle)
+5. 需記錄統計資料 [2019/05/06]
+    * process數量(hooklog總數)、samples數量(uniqie hash IDs)
+    * 變成15隻以上的家族後，有多少processes、samples沒被分進去家族而捨棄的?
+    * 進行RasMMA以後有多少processes、samples是被捨棄沒跑成功的? (error原因?)
+    * 小樹有多少processes、samples? 短樹有多少processes、samples? 聯集small_short有多少processes、samples?
 
 
 **做法:**
