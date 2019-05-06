@@ -23,11 +23,14 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/05 Update ##
-**分工:**
-~~1. 子庭負責Aries dataset的Virustotal report query也給鈞岱~~
-~~2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭~~
-~~3. 子庭跑Aries dataset的~~
+## 2019/05/06 Update ##
+**分工:** [2019/05/06]
+1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
+2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
+3. 子庭跑**Aries dataset**一個對一個family分法及RasMMA、Aries+Aquaris合在一起的**一個對一個**family分法及RasMMA
+4. 鈞岱負責Aries+Aquaris合在一起的**一個對多個**family分法及RasMMA
+5. 子庭負責產生**Aries+Aquaris**合在一起的一個對一個byte sequence pickle及REP pickle
+6. 鈞岱負責產生Aries+Aquaris合在一起的**一個對多個**byte sequence pickle及REP pickle
 
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
