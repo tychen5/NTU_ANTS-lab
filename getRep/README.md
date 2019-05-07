@@ -23,12 +23,21 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/06 Update ##
+## 2019/05/07 Update ##
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
 3. 子庭跑**Aries dataset**一個對一個family分法及RasMMA、Aries+Aquaris合在一起的**一個對一個**family分法及RasMMA
 4. 鈞岱負責Aries+Aquaris合在一起的**一個對多個**family分法及RasMMA
+    * 產生一個對多個的EXCEL (csv) 表格: 各個trace(包含main&child)檔名所對應到的family name有哪些，有者為1，無者為0 [2019/05/07]
+    * family排序由左到右為samples數量大到小的family
+
+profile name(hash_pid.profile)           | allaple  | virut | elkern | ...
+--------------|:-----:|-----:| ----:|------------------------
+4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3156.profile    | 1 |  0 |    0 | 0
+4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3268.profile    | 0 |  1 |  1 | 0
+a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile    | 1 | 0 |  1 | 0  
+
 5. 子庭負責產生**Aries+Aquaris**合在一起的一個對一個byte sequence pickle及REP pickle
 6. 鈞岱負責產生Aries+Aquaris合在一起的**一個對多個**byte sequence pickle及REP pickle
 
