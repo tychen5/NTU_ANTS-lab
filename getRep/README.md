@@ -72,6 +72,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
     * 兩個dataset一起分family
     * child process跟main process都會一起放到相同家族資料夾中 [2019/05/05]
 3. 同family name的資料夾一起跑RasMMA，得到各tree的REP (一個REP包含很多個motif)
+    * RasMMA以trace為輸入，可利用這邊的RasMMAExample.ipynb進行multi-process以加速運算效率 (請記得修改輸出檔案、資料夾名稱)
     * 將profiles移動到各自所屬的tree資料夾底下
     * 將tree的REP依照motif與motif之間(一串的連續api invocation call sequences)加入\<MOS\>，儲存為string type的1D list，在tree資料夾下輸出成REP.pickle
         * REP中一列api invocation call為list的一個element
