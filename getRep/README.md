@@ -43,6 +43,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
 
 **目標:** 
 1. 產生Aries及Aquaris Dataset的profiles
+    * 若row的開頭自並非api function name請將該profile的該row刪除，再跑RasMMA跟產生對應byte sequence
 2. 產生Family (每個family數量>=15)
     * 兩種family分法:
         * 一個malware只會對應到一個家族 => 子庭(一個對一個)
