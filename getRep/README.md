@@ -114,7 +114,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
 
 **Q&A**
 * 修正bug的profile code?
-* 完成deadline (5/13中午以前)
+* 完成deadline (5/14中午以前)
 
 > if value[0] == "S":
 
