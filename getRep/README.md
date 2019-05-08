@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/07 Update ##
+## 2019/05/08 Update ##
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
@@ -61,7 +61,9 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
 
 
 **做法:**
-1. 將兩個dataset所有trace都先轉換成profiles
+1. 將兩個dataset所有trace都先轉換成profiles [2019/05/08]
+    * 需特別注意: 確保每個profile的每個row開頭第一個字都是以下所定義的api function name，否則請把該row刪除
+    * ['LoadLibrary','CreateProcess','OpenProcess','ExitProcess','TerminateProcess','WinExec','CreateRemoteThread','CreateThread','CopyFile','CreateFile','DeleteFile','RegSetValue','RegCreateKey','RegDeleteKey','RegDeleteValue','RegQueryValue','RegEnumValue','WinHttpConnect','WinHttpOpen','WinHttpOpenRequest','WinHttpReadData','WinHttpSendRequest','WinHttpWriteData','InternetOpen','InternetConnect','HttpSendRequest','GetUrlCacheEntryInfo'] 共27個
 2. 利用virus total query回來的資料跑家族分類演算法，得到family name資料夾底下還有所有對應的profiles
     * 每個資料夾底下的profiles數量>=15
     * 兩個dataset一起分family
