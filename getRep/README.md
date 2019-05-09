@@ -27,7 +27,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
-3. 子庭跑**Aries dataset**一個對一個family分法及RasMMA、Aries+Aquaris合在一起的**一個對一個**family分法及RasMMA
+3. 子庭跑僅**Aries dataset**自己的一個對一個family分法及RasMMA、Aries+Aquaris合在一起的**一個對一個**family分法及RasMMA
 4. 鈞岱負責Aries+Aquaris合在一起的**一個對多個**family分法及RasMMA
     * 產生一個對多個的EXCEL (csv) 表格: 各個trace(包含main&child)檔名所對應到的family name有哪些，有者為1，無者為0 [2019/05/07]
     * family排序由左到右為samples數量大到小的family
