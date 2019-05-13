@@ -74,8 +74,9 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
 3. 同family name的資料夾一起跑RasMMA，得到各tree的REP (一個REP包含很多個motif)
     * RasMMA以trace為輸入，可利用這邊的RasMMAExample.ipynb進行multi-process以加速運算效率 (請記得修改輸出檔案、資料夾名稱)
     * 將profiles移動到各自所屬的tree資料夾底下
-    * 將tree的REP依照motif與motif之間(一串的連續api invocation call sequences)加入\<MOS\>，儲存為string type的1D list，在tree資料夾下輸出成REP.pickle
-        * REP中一列api invocation call為list的一個element
+    * 將tree的REP依照motif(一串的連續api invocation call sequences)，一個motif為一個list element，因此一個REP會是2D list (string type)，在tree資料夾下輸出成rep.pickle [2019/05/13]
+    
+    
 4. 將各tree的REP利用字串比對方式對應回各tree底下的profiles，若與motif一樣則輸出1，若profile的api call不存在於REP中輸出0
     * 要完全相同於REP中的某個motif時，才會對那一段profile的api call sequence都會輸出1，否則輸出0
     * byte sequence儲存為int type，存放於list中
@@ -93,7 +94,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
     - tree_name
         - *.profile
         - *_byterep.pickle
-        - REP.pickle
+        - rep.pickle
 
 - 01.allaple_0.8
     - G1286
@@ -101,7 +102,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
         - a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile
         - 4a8581ee09a6f9794b3cafa0cbe493eb43604978e51dd460b2dfbbc3f344938b_3268_byterep.pickle
         - a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220_byterep.pickle
-        - REP.pickle
+        - rep.pickle
         ...
     - G1294
     ...
