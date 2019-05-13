@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/08 Update ##
+## 2019/05/14 Update ##
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
@@ -82,6 +82,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
     * byte sequence儲存為int type，存放於list中
     * 將list存成pickle檔案輸出到對應tree資料夾
     * 一個profile會對應一個rep pickle (檔名: *HASH*_*PID*_byterep.pickle)放在tree資料夾下
+    * 一個profile中byte sequence中1的個數 = REP所有motif的長度(api invocation calls個數)
 5. 將小樹與短樹的tree資料夾保有原本的目錄結構存放到另外一個資料夾巢狀目錄中
     * 小樹: 那個tree裡面的profile數量<=2
     * 短樹: 那個tree的REP所有motif總長度<=10
