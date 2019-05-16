@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 
-## 2019/05/14 Update ##
+## 2019/05/16 Update ##
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
@@ -60,7 +60,8 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
     * 變成15隻以上的家族後，有多少processes、samples沒被分進去家族而捨棄的?
     * 進行RasMMA以後有多少processes、samples是被捨棄沒跑成功的? (error原因?)
     * 各family loner的processes、samples數量有多少 (因為沒達到0.8 criteria被捨棄沒分到任何一棵樹者) [2019/05/14]
-    * 小樹有多少processes、samples? 短樹有多少processes、samples? 聯集small_short有多少processes、samples?
+    * 跑完RasMMA以後總共有幾棵樹? 正常樹有幾顆? [2019/05/16]
+      * 小樹有多少processes、samples? 短樹有多少processes、samples? 聯集small_short有多少processes、samples?
     * 跑完RasMMA後，拿掉各family的短樹跟小樹以後，各家族還剩下多少processes、samples? [2019/05/08]
 
 
