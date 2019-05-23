@@ -126,6 +126,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
  'zygug']
 
 **輸出:**
+* Possible family reference: https://docs.google.com/spreadsheets/d/1myD3c_oEDJoF1ZUzFMnAX8LVpAe1V3mRi5Xmg7-HpXU/edit?fbclid=IwAR3UyE5122QFQ-c1cmQ-Shv63mdCZ03lA4DhwBXXAl7PftSHCh9w6nubJys#gid=1243878253
 * 上傳到Google drive: https://drive.google.com/open?id=16jRmgzda8KkYWwSBWyVFQvaeYBOIHT5m
 * deadline: 2019/06/01
 
