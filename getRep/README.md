@@ -23,7 +23,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Ubuntu 16.04.5
 
 ## 2019/05/23 UPDATE ##
-** 目標: **
+**目標: **
 1. 查詢各family name所有可能的aliases(別名)
 2. 各family簡易的technical description(主要是在做什麼、有甚麼攻擊行為、傳染途徑etc)
 
