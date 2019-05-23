@@ -22,8 +22,114 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Python3.6 (latest anaconda)
 * Ubuntu 16.04.5
 
+## 2019/05/23 UPDATE ##
+** 目標: **
+1. 查詢各family name所有可能的aliases(別名)
+2. 各family簡易的technical description(主要是在做什麼、有甚麼攻擊行為、傳染途徑etc)
 
-## 2019/05/17 Update ##
+**作法:**
+1. Google: XXX malware
+2. 查詢各大防毒引擎的描述說明 (EX: Symantec 、 Trend micro 、 Microsoft 、 Panda 、 sophos 、 Kaspersky 等等)
+3. 將別名製做為excel表格
+    * 同家族名稱者可有相同顏色
+4. 將家族的簡易描述製做為簡易ppt
+
+**分工:**
+* 子庭:
+['allaple',
+ 'autoit',
+ 'avmh',
+ 'barys',
+ 'bdmj',
+ 'bredo',
+ 'browsefox',
+ 'brresmon',
+ 'clickdownload',
+ 'conjar',
+ 'delf',
+ 'directdow',
+ 'domaiq',
+ 'downloa',
+ 'downloadadmin',
+ 'eggnog',
+ 'elkern',
+ 'expiro',
+ 'fakealert',
+ 'fakeav',
+ 'fesber',
+ 'firseria',
+ 'fiseria',
+ 'graftor',
+ 'hidp',
+ 'hoax',
+ 'hotbar',
+ 'ibryte',
+ 'installcore',
+ 'installerex',
+ 'installrex',
+ 'ipamor',
+ 'jorik',
+ 'kazy',
+ 'kdz',
+ 'killav',
+ 'kryptik',
+ 'lmn',
+ 'loadmoney',
+ 'lollipop',
+ 'mabezat',
+ 'madang',
+ 'madangel']
+ * 鈞岱:
+ ['megasearch',
+ 'mikey',
+ 'mira',
+ 'morstar',
+ 'mplug',
+ 'mresmon',
+ 'msil',
+ 'nimnul',
+ 'outbrowse',
+ 'parite',
+ 'pcclient',
+ 'picsys',
+ 'rahack',
+ 'ramnit',
+ 'razy',
+ 'sality',
+ 'screensaver',
+ 'shipup',
+ 'shodi',
+ 'sirefef',
+ 'soft',
+ 'softpulse',
+ 'solimba',
+ 'soltern',
+ 'somoto',
+ 'startpage',
+ 'strictor',
+ 'symmi',
+ 'sytro',
+ 'tepfer',
+ 'upatre',
+ 'ursu',
+ 'vbkrypt',
+ 'vbran',
+ 'vilsel',
+ 'virlock',
+ 'virtob',
+ 'virut',
+ 'vobfus',
+ 'vtflooder',
+ 'yantai',
+ 'zbot',
+ 'zusy',
+ 'zygug']
+
+**輸出:**
+* 上傳到Google drive: https://drive.google.com/open?id=16jRmgzda8KkYWwSBWyVFQvaeYBOIHT5m
+* deadline: 2019/06/01
+
+## 2019/05/17  ##
 **分工:** [2019/05/06]
 1. 子庭負責Aries dataset的Virustotal report query也給鈞岱
 2. 鈞岱負責Aquaris dataset的Virustotal report query也給子庭
