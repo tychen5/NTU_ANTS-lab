@@ -198,6 +198,15 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
 5. 將小樹與短樹的tree資料夾保有原本的目錄結構存放到另外一個資料夾巢狀目錄中
     * 小樹: 那個tree裡面的profile數量<=2
     * 短樹: 那個tree的REP所有motifs合併以後的總長度<=10
+    * ```
+          rep = pickle.load(open(in_directory + 'rep.pickle','rb')) 
+    
+          rep = sum(rep,[])
+    
+          len(rep) <=10
+      ```
+    
+    
     * 一個row = 一個api invocation call(包含parameters) = 長度(length)1
     
 **輸出:**
