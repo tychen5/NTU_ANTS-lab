@@ -22,7 +22,7 @@ Propose a sequence-based clustering algorithm to analyze malwares.
 * Python3.6 (latest anaconda)
 * Ubuntu 16.04.5
 
-## 2019/05/23 UPDATE ##
+## 2019/05/23 ##
 **目標:**
 1. 查詢各family name所有可能的aliases(別名)
 2. 各family簡易的technical description(主要是在做什麼、有甚麼攻擊行為、傳染途徑etc)
@@ -197,7 +197,7 @@ a70c1f66c37b0aa1f68a6bc7502b10a56a16a5e8ee01c41128a525891f166d1f_3220.profile   
     * 一個profile中byte sequence中1的個數 = REP所有motif的長度(api invocation calls個數)
 5. 將小樹與短樹的tree資料夾保有原本的目錄結構存放到另外一個資料夾巢狀目錄中
     * 小樹: 那個tree裡面的profile數量<=2
-    * 短樹: 那個tree的REP所有motif總長度<=10
+    * 短樹: 那個tree的REP所有motifs合併以後的總長度<=10
     * 一個row = 一個api invocation call(包含parameters) = 長度(length)1
     
 **輸出:**
