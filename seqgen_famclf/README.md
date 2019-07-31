@@ -4,8 +4,8 @@
 
 ## Trained Model
 * https://drive.google.com/drive/folders/1dzucL1MuvYtRaV2wevjVgD3_CIfJRDOD
-    * .h5 : only parameters
-    * _all.h5 : with architecture
+    * \*.h5 : only parameters
+    * \*_all.h5 : with architecture & model parameters
 * system final model: byterep_0706_gruatt_sent2vec
-* embedding Experiment models: o2o_embEXP_gru_selfatt
-* encoder Experiment models: o2o_encEXP_gru_selfatt
+* Embedder Experiment models: o2o_embEXP_gru_selfatt
+* Encoder Experiment models: o2o_encEXP_gru_selfatt
