@@ -16,11 +16,11 @@
 * Fig4.14: FamilyMatch_rate_loner.xlsx中的Sheet1(2)
 * Fig4.15: FamilyUNK_rate_loner.xlsx中的Sheet1(2)
 * Fig4.16: Family_Train_haveREP_pid_ratio.xlsx
-* Fig4.19: FamilyMatch_rate_loner.xlsx中的Sheet1(3)
-* Fig4.20: FamilyMatch08_rate_loner.xlsx
-* Fig4.21: FamilyUNK_rate_loner.xlsx中的Sheet1(3)
+* Fig4.19: FamilyMatch_rate_loner.xlsx中的Sheet1(3)、fam_hash_woUNK_mis_num09.xlsx
+* Fig4.20: FamilyMatch08_rate_loner.xlsx、fam_hash_woUNK_mis_num.xlsx
+* Fig4.21: FamilyUNK_rate_loner.xlsx中的Sheet1(3)、fam_unkhash_num.xlsx
 
 
 ## Thesis Tables原始資料
 **https://drive.google.com/drive/folders/1M7RIbL5j836jzg0D4w-rhTWl30yfhu7g**
-* Table4.8: Oral_自動化惡意程式重要執行序行為辨識_TY.pptx中的P.85
+* Table4.8: Oral_自動化惡意程式重要執行序行為辨識_TY.pptx中的P.85、Family_Train_allpid_ratio.xlsx
