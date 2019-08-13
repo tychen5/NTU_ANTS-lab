@@ -9,3 +9,18 @@
 * system final model: byterep_0706_gruatt_sent2vec
 * Embedder Experiment models: o2o_embEXP_gru_selfatt
 * Encoder Experiment models: o2o_encEXP_gru_selfatt
+
+## Thesis Figures原始資料
+**https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
+* Fig4.13: testing dataset EM accuracy.docx、EM_draw_allTest.xlsx、EM_draw_onlywREP.xlsx
+* Fig4.14: FamilyMatch_rate_loner.xlsx中的Sheet1(2)
+* Fig4.15: FamilyUNK_rate_loner.xlsx中的Sheet1(2)
+* Fig4.16: Family_Train_haveREP_pid_ratio.xlsx
+* Fig4.19: FamilyMatch_rate_loner.xlsx中的Sheet1(3)
+* Fig4.20: FamilyMatch08_rate_loner.xlsx
+* Fig4.21: FamilyUNK_rate_loner.xlsx中的Sheet1(3)
+
+
+## Thesis Tables原始資料
+**https://drive.google.com/drive/folders/1M7RIbL5j836jzg0D4w-rhTWl30yfhu7g**
+* Table4.8: Oral_自動化惡意程式重要執行序行為辨識_TY.pptx中的P.85
