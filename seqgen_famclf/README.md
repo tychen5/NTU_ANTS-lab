@@ -26,3 +26,4 @@
 ## Thesis Tables原始資料
 **https://drive.google.com/drive/folders/1M7RIbL5j836jzg0D4w-rhTWl30yfhu7g**
 * Table4.8: Oral_自動化惡意程式重要執行序行為辨識_TY.pptx中的P.85、Family_Train_allpid_ratio.xlsx
+* Sec 4.3 |F|和|BT|的distribution: argmax_match_dist.xlsx中的Sheet1
