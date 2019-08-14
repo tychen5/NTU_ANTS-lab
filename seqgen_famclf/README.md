@@ -12,6 +12,8 @@
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
+* Fig3.13: ori_system_history_public.xlsx
+* Fig4.11: threxp_F1_rec_pre_Hloss.xlsx
 * Fig4.13: testing dataset EM accuracy.docx、EM_draw_allTest.xlsx、EM_draw_onlywREP.xlsx
 * Fig4.14: FamilyMatch_rate_loner.xlsx中的Sheet1(2)
 * Fig4.15: FamilyUNK_rate_loner.xlsx中的Sheet1(2)
