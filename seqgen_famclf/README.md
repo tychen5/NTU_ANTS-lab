@@ -17,12 +17,16 @@
 * profiling前處理統計資料: AnA_statistic.xlsx
 
 
-## Source code documents:
+## Source code documentation & interpretation:
 * 0001.Statistics_Prprocessing_DataSplit_LonerSetPrepare.ipynb
    * dataset的各項統計資訊 (process長度、rep長度、tree樣本數、tree執行程序數、一個sample有幾個process、一個family有幾個processes、一個family有幾個samples、一個family有幾個trees)
    * 資料前處理 (移除過長的profile)
    * 資料集切分 (train/dev/test)
    * 挑出loner set中有存在於dev的家族
+* 0002.Sent2Vec corpus preparation & embedding evaluation
+   * 準備Sen2Vec corpus
+   * evaluate sent2vec vectors
+   * 準備 embedding layer initial weight
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
