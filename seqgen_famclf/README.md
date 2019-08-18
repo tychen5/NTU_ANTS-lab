@@ -10,8 +10,19 @@
 * Embedder Experiment models: o2o_embEXP_gru_selfatt
 * Encoder Experiment models: o2o_encEXP_gru_selfatt
 
+## 最原始完全未處理的profiles Dataset (一個sample對應一個家族by子庭；家族分類by鈞岱)
+* ftp://XXX...45/zizi/廷易嚶嚶/   (帳密為自己登入superPC的帳密)
+* loner Set: G0.zip
+* train/dev/test Set: AnA_non-split_v4.zip or AnA_split_v4.zip
+* profiling前處理統計資料: AnA_statistic.xlsx
+
+
 ## Source code:
-0001. 
+* 0001.Statistics_Prprocessing_DataSplit_LonerSetPrepare
+      * dataset的各項統計資訊 (process長度、rep長度、tree樣本數、tree執行程序數、一個sample有幾個process、一個family有幾個processes、一個family有幾個samples、一個family有幾個trees)
+      * 資料前處理 (移除過長的profile)
+      * 資料集切分 (train/dev/test)
+      * 挑出loner set中有存在於dev的家族
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
