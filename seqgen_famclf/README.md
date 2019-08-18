@@ -10,6 +10,9 @@
 * Embedder Experiment models: o2o_embEXP_gru_selfatt
 * Encoder Experiment models: o2o_encEXP_gru_selfatt
 
+## Source code:
+0001. 
+
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
 * Fig3.13: ori_system_history_public.xlsx
@@ -41,8 +44,8 @@
 * loner 中family的分佈: loner_47fam_dist.xlsx
 
 ## Package List
-Package                            Version
----------------------------------- --------------------
+PackageName             /               Version
+
 - absl-py                            0.7.1
 - alabaster                          0.7.12
 - anaconda-client                    1.7.2
