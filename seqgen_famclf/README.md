@@ -10,7 +10,7 @@
 * Embedder Experiment models: o2o_embEXP_gru_selfatt
 * Encoder Experiment models: o2o_encEXP_gru_selfatt
 
-## 最原始完全未處理的profiles Dataset (一個sample對應一個家族by子庭；家族分類by鈞岱)
+## 最原始完全未處理的profiles Dataset (一個sample對應一個家族的execution profiles準備done by子庭；惡意程式家族分類done by鈞岱)
 * ftp://XXX...45/zizi/廷易嚶嚶/   (帳密為自己登入superPC的帳密)
 * loner Set: G0.zip
 * train/dev/test Set: AnA_non-split_v4.zip or AnA_split_v4.zip
@@ -27,6 +27,9 @@
    * 準備Sen2Vec corpus
    * evaluate sent2vec vectors
    * 準備 embedding layer initial weight
+* 0003.Prepare Dataset Embedding Matrix & Feature Scaling
+   * 準備每個資料集(train/dev/test/loner Set)的embedding vectors: API function name encode、API invocation call embed
+   * 對Sent2Vec vectors的每一個維度進行Z-score normalize
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
