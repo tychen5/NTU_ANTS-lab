@@ -10,7 +10,8 @@
 * Embedder Experiment models: o2o_embEXP_gru_selfatt
 * Encoder Experiment models: o2o_encEXP_gru_selfatt
 
-## 最原始完全未處理的profiles Dataset (一個sample對應一個家族的execution profiles準備done by子庭；惡意程式家族分類done by鈞岱)
+## 最原始完全未處理的profiles Dataset
+* 一個sample對應一個家族的execution profiles準備done by子庭；惡意程式家族分類done by鈞岱。detail see: https://github.com/tychen5/NTU_ANTS-lab/tree/master/getRep
 * ftp://XXX...45/zizi/廷易嚶嚶/   (帳密為自己登入superPC的帳密)
 * loner Set: G0.zip
 * train/dev/test Set: AnA_non-split_v4.zip or AnA_split_v4.zip
@@ -34,6 +35,7 @@
    * 核心類神經網路模型訓練
    * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
    * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
+*   
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
