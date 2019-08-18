@@ -17,7 +17,7 @@
 * profiling前處理統計資料: AnA_statistic.xlsx
 
 
-## Source code documentation & interpretation:
+## Source code documentation & interpretation
 * 0001.Statistics_Prprocessing_DataSplit_LonerSetPrepare.ipynb
    * dataset的各項統計資訊 (process長度、rep長度、tree樣本數、tree執行程序數、一個sample有幾個process、一個family有幾個processes、一個family有幾個samples、一個family有幾個trees)
    * 資料前處理 (移除過長的profile)
@@ -30,6 +30,10 @@
 * 0003.Prepare Dataset Embedding Matrix & Feature Scaling
    * 準備每個資料集(train/dev/test/loner Set)的embedding vectors: API function name encode、API invocation call embed
    * 對Sent2Vec vectors的每一個維度進行Z-score normalize
+* 0004.NN model & Filter threshold selection
+   * 核心類神經網路模型訓練
+   * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
+   * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
