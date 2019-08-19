@@ -31,19 +31,19 @@
    * 資料前處理 (移除過長的profile)
    * 資料集切分 (train/dev/test)
    * 挑出loner set中有存在於dev的家族
-* 0002.Sent2Vec corpus preparation & embedding evaluation
+* 0002.Sent2Vec corpus preparation & embedding evaluation.ipynb
    * 準備Sen2Vec corpus
    * evaluate sent2vec vectors
    * 準備 embedding layer initial weight
-* 0003.Prepare Dataset Embedding Matrix & Feature Scaling
+* 0003.Prepare Dataset Embedding Matrix & Feature Scaling.ipynb
    * 準備每個資料集(train/dev/test/loner Set)的embedding vectors: API function name encode、API invocation call embed
    * 對Sent2Vec vectors的每一個維度進行Z-score normalize
-* 0004.NN model & Filter threshold selection
+* 0004.NN model & Filter threshold selection.ipynb
    * 核心類神經網路模型訓練
    * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
    * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
    * 輸出training process資訊 (train loss/ valid loss / train acc / valid acc)
-* 0005.Representative execution pattern vector experiments & statistics
+* 0005.Representative execution pattern vector experiments & statistics.ipynb
    * 準備training set/validation set/testing set/loner set的r
    * Sec4.3 實驗2: testing set之BT與F歸類、各項統計圖表計算與輸出
    * Sec4.4 實驗3: loner set之F分類、各項統計圖表計算與輸出
