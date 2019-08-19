@@ -35,6 +35,7 @@
    * 核心類神經網路模型訓練
    * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
    * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
+   * 輸出training process資訊 (train loss/ valid loss / train acc / valid acc)
 * 0005.Representative execution pattern vector experiments & statistics
    * 準備training set/validation set/testing set/loner set的r
    * testing set之BT與F歸類、各項統計圖表計算與輸出
