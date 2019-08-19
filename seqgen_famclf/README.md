@@ -7,14 +7,21 @@
     * \*.h5 : only parameters
     * \*_all.h5 : with architecture & model parameters
 * system final model: byterep_0706_gruatt_sent2vec
-* Embedder Experiment models: o2o_embEXP_gru_selfatt
-* Encoder Experiment models: o2o_encEXP_gru_selfatt
+* Embedder Experiment models: o2o_embEXP_gru_selfatt/
+* Encoder Experiment models: o2o_encEXP_gru_selfatt/
+* embedding layer initialize weight: emb_init_matrix.pkl
+   * pretrained BERT model & corpus: BERT_pretrained_model/
+* Sent2Vec trained model: Sent2Vec_pretrained_APIcalls_768model.bin
+
+## Dataset
+* train/valid/test/loner Set profiles: https://drive.google.com/drive/folders/197924KGc_hSUZeW8KZAhRIBADEODwVxz
+* train/valid/test/loner Set representative exexcution pattern vector: https://drive.google.com/drive/folders/1eldxcQiYsHMiPscYZlmbSCss4qWuHZ0U
 
 ## 最原始完全未處理的profiles Dataset
 * 一個sample對應一個家族的execution profiles準備done by子庭；惡意程式家族分類done by鈞岱。detail see: https://github.com/tychen5/NTU_ANTS-lab/tree/master/getRep
 * ftp://XXX...45/zizi/廷易嚶嚶/   (帳密為自己登入superPC的帳密)
 * loner Set: G0.zip
-* train/dev/test Set: AnA_non-split_v4.zip or AnA_split_v4.zip
+* train/dev/test Set: AnA_non-split_v4.zip 、 AnA_split_v4.zip
 * profiling前處理統計資料: AnA_statistic.xlsx
 
 
@@ -38,9 +45,9 @@
    * 輸出training process資訊 (train loss/ valid loss / train acc / valid acc)
 * 0005.Representative execution pattern vector experiments & statistics
    * 準備training set/validation set/testing set/loner set的r
-   * testing set之BT與F歸類、各項統計圖表計算與輸出
-   * loner set之F分類、各項統計圖表計算與輸出
-   * 視覺化r資料準備
+   * Sec4.3 實驗2: testing set之BT與F歸類、各項統計圖表計算與輸出
+   * Sec4.4 實驗3: loner set之F分類、各項統計圖表計算與輸出
+   * Sec4.5 allaple可視化: 視覺化r資料準備
    * kNN分類測試資料集與loner資料集
    * BT centroid方式分類測試資料集與loner資料集
 
