@@ -35,7 +35,13 @@
    * 核心類神經網路模型訓練
    * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
    * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
-*   
+* 0005.Representative execution pattern vector experiments & statistics
+   * 準備training set/validation set/testing set/loner set的r
+   * testing set之BT與F歸類、各項統計圖表計算與輸出
+   * loner set之F分類、各項統計圖表計算與輸出
+   * 視覺化r資料準備
+   * kNN分類測試資料集與loner資料集
+   * BT centroid方式分類測試資料集與loner資料集
 
 ## Thesis Figures原始資料
 **https://drive.google.com/drive/folders/1QRVf62rOCPoN9a8vkAk7YEPAB0oWj7mb**
