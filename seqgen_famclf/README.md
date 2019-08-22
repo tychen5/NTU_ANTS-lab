@@ -32,15 +32,15 @@
    * 資料集切分 (train/dev/test)
    * 挑出loner set中有存在於dev的家族
 * 0002.Sent2Vec corpus preparation & embedding evaluation.ipynb
-   * 準備Sen2Vec corpus
+   * 準備Sen2Vec corpus (sent2vec 的 code)
    * evaluate sent2vec vectors
-   * 準備 embedding layer initial weight
+   * 準備 embedding layer initial weight ( 處理BERT的code)
 * 0003.Prepare Dataset Embedding Matrix & Feature Scaling.ipynb
    * 準備每個資料集(train/dev/test/loner Set)的embedding vectors: API function name encode、API invocation call embed
    * 對Sent2Vec vectors的每一個維度進行Z-score normalize
 * 0004.NN model & Filter threshold selection.ipynb
-   * 核心類神經網路模型訓練
-   * 挑選所訓練模型最適合的filter threshold (by驗證資料集)
+   * 核心類神經網路模型訓練 (encoder的code)( hyper-parameter在哪裡設定)
+   * 挑選所訓練模型最適合的filter threshold (by驗證資料集)(filter 的code)
    * Sec4.2 實驗1-1、1-2、1-3 (比較不同方法的Embedder、Encoder、Filter在測試資料集的表現F1、precision、recall、hammingLoss)
    * 輸出training process資訊 (train loss/ valid loss / train acc / valid acc)
 * 0005.Representative execution pattern vector experiments & statistics.ipynb
