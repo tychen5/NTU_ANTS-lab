@@ -23,6 +23,7 @@
 * loner Set: G0.zip
 * train/dev/test Set: AnA_non-split_v4.zip 、 AnA_split_v4.zip
 * profiling前處理統計資料: AnA_statistic.xlsx
+* 交接: https://docs.google.com/document/d/1LE9WYRs1uGI8iHcLBdSbKymndkAhMhxQ60aNTSk7LOQ/edit
 
 
 ## Source code documentation & interpretation
